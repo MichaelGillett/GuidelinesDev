@@ -1,0 +1,94 @@
+﻿button {
+    background: $lightThemeButtonBackgroundPrimary;
+    border: 2px solid $lightThemeButtonBackgroundPrimary;
+    color: $lightThemeFontColorPrimary;
+    
+    font: {
+        family: $primaryFontFamily;
+    }
+
+    min: {
+        width: 100px;
+    }
+
+    outline: none;
+    padding: 3px 8px;
+
+    &:hover,
+    &:focus {
+        border-color: $lightThemeButtonBackgroundSecondary;
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: $lightThemeButtonBackgroundSecondary;
+        border-color: $lightThemeButtonBackgroundSecondary;
+        cursor: pointer;
+    }
+
+    &:disabled {
+        border-color: $lightThemeButtonBackgroundPrimary;
+        color: $lightThemeFontColorDisabled;
+        cursor: default;
+    }
+
+    .theme-dark & {
+        background: $darkThemeButtonBackgroundPrimary;
+        border: 2px solid $darkThemeButtonBackgroundPrimary;
+        color: $darkThemeFontColorPrimary;
+
+        &:hover,
+        &:focus {
+            border-color: $darkThemeButtonBackgroundSecondary;
+            cursor: pointer;
+        }
+
+        &:active {
+            background-color: $darkThemeButtonBackgroundSecondary;
+            border-color: $darkThemeButtonBackgroundSecondary;
+            cursor: pointer;
+        }
+
+        &:disabled {
+            border-color: $darkThemeButtonBackgroundPrimary;
+            color: $darkThemeFontColorDisabled;
+            cursor: default;
+        }
+    }
+
+    &.accentButton {
+        color: #FFFFFF;
+
+        @include accentColorBackgroundBorderAnd();
+
+        &:hover,
+        &:focus {
+            @include accentLightenColorBackgroundBorderAnd();
+
+            @include accentDarkenColorBackgroundBorderDarkAnd();
+        }
+
+        &:disabled {
+            background: $lightThemeButtonBackgroundPrimary;
+            border-color: $lightThemeButtonBackgroundPrimary;
+            color: $lightThemeFontColorDisabled;
+            cursor: default;
+
+            &:hover {
+                background: $lightThemeButtonBackgroundPrimary;
+                border-color: $lightThemeButtonBackgroundPrimary;
+            }
+
+            .theme-dark & {
+                background: $darkThemeButtonBackgroundPrimary;
+                border-color: $darkThemeButtonBackgroundPrimary;
+                color: $darkThemeFontColorDisabled;
+
+                &:hover {
+                    background: $darkThemeButtonBackgroundPrimary;
+                    border-color: $darkThemeButtonBackgroundPrimary;
+                }
+            }
+        }
+    } 
+}

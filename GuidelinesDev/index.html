@@ -1,0 +1,28 @@
+﻿<html ng-app="guidelines" ng-cloak>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Guidelines</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+    <link href="Styles/CSS/main.css" rel="stylesheet" />
+</head>
+<body class="accentColor-{{layoutCtrl.layout.accentColor + 1}}" ng-class="{'theme-dark' : layoutCtrl.layout.isThemeDark}" ng-controller="layoutController as layoutCtrl">
+    <header>
+        {{layoutCtrl.state.current.name}}
+    </header>
+    <div class="hamburger-container">
+        <div class="hamburger" ng-click="toggleSidebar = !toggleSidebar">
+            <div class="mdl2-menu icon"></div>
+        </div>
+    </div>
+    <section class="sidebar" ng-class="{ 'open' : toggleSidebar }">
+        <ul>
+            <li ui-sref="home" ui-sref-active="active"><div class="mdl2-home icon"></div><div class="title">Home</div></li>
+            <li ui-sref="controls and patterns" ui-sref-active="active"><div class="mdl2-controls icon"></div><div class="title">Controls and Patterns</div></li>
+            <li ui-sref="settings" ui-sref-active="active"><div class="mdl2-settings icon"></div><div class="title">Settings</div></li>
+        </ul>
+    </section>
+    <div ng-click="toggleSidebar = false"><section class="contentArea" ui-view></section></div>
+    <script src="Scripts/build/guidelines.js"></script>
+</body>
+</html>

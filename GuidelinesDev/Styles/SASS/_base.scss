@@ -1,0 +1,132 @@
+﻿body {
+    background: $lightThemeBackground;
+    color: $lightThemeFontColorPrimary;
+    font:{
+        family: $primaryFontFamily;
+    }
+    margin: 0;
+
+    &.theme-dark {
+        background: $darkThemeBackground;
+        color: $darkThemeFontColorPrimary;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+    font: {
+        weight: 400;
+    }
+    margin: 0;
+
+    .theme-dark & {
+        color: #FFFFFF;
+    }
+
+    span.icon {
+        display: inline-block;
+
+        font: {
+            family: 'Segoe MDL2 Assets';
+            size: 40px;
+        }
+
+        margin: {
+            bottom: 10px;
+            top: 30px;
+        }
+    }
+}
+
+h1 {
+    font: {
+        size: 1.1em;
+        weight: 500;
+    }
+
+    text: {
+        transform: uppercase;
+    }
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+p {
+    &.info {
+        font-size: 12px;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+div {
+    &.contentGroup {
+        margin-bottom: 10px;
+    }
+}
+
+header {
+    background: $lightThemeForegroundSecondary;
+    box-sizing: border-box;
+
+    font: {
+        size: 1.1em;
+        weight: 500;
+    }
+
+    height: 50px;
+    left: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0 10px;
+    position: absolute;
+
+    text: {
+        transform: uppercase;
+    }
+
+    top: 0;
+    width: calc(100% - 50px);
+
+    @media(min-width: $breakpoint-medium) {
+        left: 250px;
+        width: calc(100% - 250px);
+    }
+
+    .theme-dark & {
+        background: $darkThemeForegroundSecondary;
+    }
+}
+
+.accentColor {
+    .blue & {
+        color: blue;
+    }
+
+    .red & {
+        color: red
+    }
+}
+
+[class^="mdl2-"], [class*="mdl2-"] {
+    display: inline-block;
+    font-family: 'Segoe MDL2 Assets';
+    text-align: center;
+    vertical-align: bottom;
+    width: 50px;
+}
+
+[class^="mdl2-"]::before, [class*="mdl2-"]::before {
+  font-size: 24px;
+}
+
+.mdl2-heart-legacy::before  { content: '\e006'; }
+.mdl2-check-mark::before  { content: '\e73e'; } 
+.mdl2-home::before  { content: '\e80f'; } 
+.mdl2-controls::before  { content: '\e8fc'; } 
+.mdl2-settings::before  { content: '\e713'; } 
+.mdl2-menu::before  { content: '\E700'; } 

@@ -1,0 +1,87 @@
+﻿@mixin accentColorAnd {
+
+  @each $current-color in $accentColors {
+    $i: index($accentColors, $current-color);
+        .accentColor-#{$i} & { 
+            color: $current-color;
+        }
+    }
+}
+
+@mixin accentBorderAnd {
+
+  @each $current-color in $accentColors {
+    $i: index($accentColors, $current-color);
+        .accentColor-#{$i} & { 
+            border-color: $current-color;
+        }
+    }
+}
+
+@mixin accentColorBackground {
+
+  @each $current-color in $accentColors {
+    $i: index($accentColors, $current-color);
+        &.accentColor-#{$i} { 
+            background-color: $current-color;
+        }
+    }
+}
+
+@mixin accentColorBackgroundBorderAnd {
+
+  @each $current-color in $accentColors {
+    $i: index($accentColors, $current-color);
+        .accentColor-#{$i} & { 
+            background-color: $current-color;
+            border-color: $current-color;
+        }
+    }
+}
+
+@mixin accentLightenColorBackgroundBorderAnd {
+
+  @each $current-color in $accentColors {
+    $i: index($accentColors, $current-color);
+        .accentColor-#{$i} & { 
+            background-color: lighten($current-color, 10%);
+            border-color: lighten($current-color, 10%);
+        }
+    }
+}
+
+@mixin accentDarkenColorBackgroundBorderAnd {
+
+  @each $current-color in $accentColors {
+    $i: index($accentColors, $current-color);
+        .accentColor-#{$i} & { 
+            background-color: darken($current-color, 10%);
+            border-color: darken($current-color, 10%);
+        }
+    }
+}
+
+@mixin accentDarkenColorBackgroundBorderDarkAnd {
+
+  @each $current-color in $accentColors {
+    $i: index($accentColors, $current-color);
+        .accentColor-#{$i}.theme-dark & { 
+            background-color: darken($current-color, 10%);
+            border-color: darken($current-color, 10%);
+        }
+    }
+}
+
+@mixin accentColorBackgroundTransparentAnd {
+
+  @each $current-color in $accentColors {
+    $i: index($accentColors, $current-color);
+        .accentColor-#{$i} & { 
+            background-color: rgba( $current-color, .3 );
+
+            &:hover {
+                background-color: rgba( $current-color, .5 );
+            }
+        }
+    }
+}

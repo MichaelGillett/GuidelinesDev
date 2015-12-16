@@ -1,0 +1,26 @@
+﻿a {
+    outline: none;
+    text-decoration: none;
+
+    @include accentColorAnd();
+
+    &:hover,
+    &:focus {
+        color: $lightThemeFontColorSecondary;
+    }
+
+    &:active {
+        color: lighten($lightThemeFontColorSecondary, 15%);
+    }
+
+    .theme-dark & {
+        &:hover,
+        &:focus {
+            color: $darkThemeFontColorSecondary;
+        }
+
+        &:active {
+            color: darken($darkThemeFontColorSecondary, 15%);
+        }
+    }
+}

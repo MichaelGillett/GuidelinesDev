@@ -1,0 +1,1091 @@
+body {
+  background: #FFFFFF;
+  color: #000000;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+}
+body.theme-dark {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+  font-weight: 400;
+  margin: 0;
+}
+.theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark h4, .theme-dark h5, .theme-dark h6 {
+  color: #FFFFFF;
+}
+h1 span.icon, h2 span.icon, h3 span.icon, h4 span.icon, h5 span.icon, h6 span.icon {
+  display: inline-block;
+  font-family: 'Segoe MDL2 Assets';
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 1.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 5px;
+}
+
+p.info {
+  font-size: 12px;
+}
+
+.center {
+  text-align: center;
+}
+
+div.contentGroup {
+  margin-bottom: 10px;
+}
+
+header {
+  background: #E6E6E6;
+  box-sizing: border-box;
+  font-size: 1.1em;
+  font-weight: 500;
+  height: 50px;
+  left: 50px;
+  line-height: 50px;
+  margin: 0;
+  padding: 0 10px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+  width: calc(100% - 50px);
+}
+@media (min-width: 700px) {
+  header {
+    left: 250px;
+    width: calc(100% - 250px);
+  }
+}
+.theme-dark header {
+  background: #1F1F1F;
+}
+
+.blue .accentColor {
+  color: blue;
+}
+.red .accentColor {
+  color: red;
+}
+
+[class^="mdl2-"], [class*="mdl2-"] {
+  display: inline-block;
+  font-family: 'Segoe MDL2 Assets';
+  text-align: center;
+  vertical-align: bottom;
+  width: 50px;
+}
+
+[class^="mdl2-"]::before, [class*="mdl2-"]::before {
+  font-size: 24px;
+}
+
+.mdl2-heart-legacy::before {
+  content: '\e006';
+}
+
+.mdl2-check-mark::before {
+  content: '\e73e';
+}
+
+.mdl2-home::before {
+  content: '\e80f';
+}
+
+.mdl2-controls::before {
+  content: '\e8fc';
+}
+
+.mdl2-settings::before {
+  content: '\e713';
+}
+
+.mdl2-menu::before {
+  content: '\E700';
+}
+
+button {
+  background: #CCCCCC;
+  border: 2px solid #CCCCCC;
+  color: #000000;
+  font-family: "Segoe UI", Arial, sans-serif;
+  min-width: 100px;
+  outline: none;
+  padding: 3px 8px;
+}
+button:hover, button:focus {
+  border-color: #7A7A7A;
+  cursor: pointer;
+}
+button:active {
+  background-color: #7A7A7A;
+  border-color: #7A7A7A;
+  cursor: pointer;
+}
+button:disabled {
+  border-color: #CCCCCC;
+  color: #A6A6A6;
+  cursor: default;
+}
+.theme-dark button {
+  background: #333333;
+  border: 2px solid #333333;
+  color: #FFFFFF;
+}
+.theme-dark button:hover, .theme-dark button:focus {
+  border-color: #858585;
+  cursor: pointer;
+}
+.theme-dark button:active {
+  background-color: #858585;
+  border-color: #858585;
+  cursor: pointer;
+}
+.theme-dark button:disabled {
+  border-color: #333333;
+  color: #565656;
+  cursor: default;
+}
+button.accentButton {
+  color: #FFFFFF;
+}
+.accentColor-1 button.accentButton {
+  background-color: #FFB900;
+  border-color: #FFB900;
+}
+.accentColor-2 button.accentButton {
+  background-color: #E74856;
+  border-color: #E74856;
+}
+.accentColor-3 button.accentButton {
+  background-color: #0078D7;
+  border-color: #0078D7;
+}
+.accentColor-4 button.accentButton {
+  background-color: #0099BC;
+  border-color: #0099BC;
+}
+.accentColor-5 button.accentButton {
+  background-color: #7A7574;
+  border-color: #7A7574;
+}
+.accentColor-6 button.accentButton {
+  background-color: #767676;
+  border-color: #767676;
+}
+.accentColor-7 button.accentButton {
+  background-color: #FF8C00;
+  border-color: #FF8C00;
+}
+.accentColor-8 button.accentButton {
+  background-color: #E81123;
+  border-color: #E81123;
+}
+.accentColor-9 button.accentButton {
+  background-color: #0063B1;
+  border-color: #0063B1;
+}
+.accentColor-10 button.accentButton {
+  background-color: #2D7D9A;
+  border-color: #2D7D9A;
+}
+.accentColor-11 button.accentButton {
+  background-color: #5D5A58;
+  border-color: #5D5A58;
+}
+.accentColor-12 button.accentButton {
+  background-color: #4C4A48;
+  border-color: #4C4A48;
+}
+.accentColor-1 button.accentButton:hover, .accentColor-1 button.accentButton:focus {
+  background-color: #ffc733;
+  border-color: #ffc733;
+}
+.accentColor-2 button.accentButton:hover, .accentColor-2 button.accentButton:focus {
+  background-color: #ed7580;
+  border-color: #ed7580;
+}
+.accentColor-3 button.accentButton:hover, .accentColor-3 button.accentButton:focus {
+  background-color: #0b93ff;
+  border-color: #0b93ff;
+}
+.accentColor-4 button.accentButton:hover, .accentColor-4 button.accentButton:focus {
+  background-color: #00c3ef;
+  border-color: #00c3ef;
+}
+.accentColor-5 button.accentButton:hover, .accentColor-5 button.accentButton:focus {
+  background-color: #938f8e;
+  border-color: #938f8e;
+}
+.accentColor-6 button.accentButton:hover, .accentColor-6 button.accentButton:focus {
+  background-color: #909090;
+  border-color: #909090;
+}
+.accentColor-7 button.accentButton:hover, .accentColor-7 button.accentButton:focus {
+  background-color: #ffa333;
+  border-color: #ffa333;
+}
+.accentColor-8 button.accentButton:hover, .accentColor-8 button.accentButton:focus {
+  background-color: #f13b4b;
+  border-color: #f13b4b;
+}
+.accentColor-9 button.accentButton:hover, .accentColor-9 button.accentButton:focus {
+  background-color: #0080e4;
+  border-color: #0080e4;
+}
+.accentColor-10 button.accentButton:hover, .accentColor-10 button.accentButton:focus {
+  background-color: #399dc1;
+  border-color: #399dc1;
+}
+.accentColor-11 button.accentButton:hover, .accentColor-11 button.accentButton:focus {
+  background-color: #777371;
+  border-color: #777371;
+}
+.accentColor-12 button.accentButton:hover, .accentColor-12 button.accentButton:focus {
+  background-color: #666461;
+  border-color: #666461;
+}
+.accentColor-1.theme-dark button.accentButton:hover, .accentColor-1.theme-dark button.accentButton:focus {
+  background-color: #cc9400;
+  border-color: #cc9400;
+}
+.accentColor-2.theme-dark button.accentButton:hover, .accentColor-2.theme-dark button.accentButton:focus {
+  background-color: #df1d2e;
+  border-color: #df1d2e;
+}
+.accentColor-3.theme-dark button.accentButton:hover, .accentColor-3.theme-dark button.accentButton:focus {
+  background-color: #005ca4;
+  border-color: #005ca4;
+}
+.accentColor-4.theme-dark button.accentButton:hover, .accentColor-4.theme-dark button.accentButton:focus {
+  background-color: #006f89;
+  border-color: #006f89;
+}
+.accentColor-5.theme-dark button.accentButton:hover, .accentColor-5.theme-dark button.accentButton:focus {
+  background-color: #605c5b;
+  border-color: #605c5b;
+}
+.accentColor-6.theme-dark button.accentButton:hover, .accentColor-6.theme-dark button.accentButton:focus {
+  background-color: #5d5d5d;
+  border-color: #5d5d5d;
+}
+.accentColor-7.theme-dark button.accentButton:hover, .accentColor-7.theme-dark button.accentButton:focus {
+  background-color: #cc7000;
+  border-color: #cc7000;
+}
+.accentColor-8.theme-dark button.accentButton:hover, .accentColor-8.theme-dark button.accentButton:focus {
+  background-color: #b80e1c;
+  border-color: #b80e1c;
+}
+.accentColor-9.theme-dark button.accentButton:hover, .accentColor-9.theme-dark button.accentButton:focus {
+  background-color: #00467e;
+  border-color: #00467e;
+}
+.accentColor-10.theme-dark button.accentButton:hover, .accentColor-10.theme-dark button.accentButton:focus {
+  background-color: #215d73;
+  border-color: #215d73;
+}
+.accentColor-11.theme-dark button.accentButton:hover, .accentColor-11.theme-dark button.accentButton:focus {
+  background-color: #43413f;
+  border-color: #43413f;
+}
+.accentColor-12.theme-dark button.accentButton:hover, .accentColor-12.theme-dark button.accentButton:focus {
+  background-color: #32312f;
+  border-color: #32312f;
+}
+button.accentButton:disabled {
+  background: #CCCCCC;
+  border-color: #CCCCCC;
+  color: #A6A6A6;
+  cursor: default;
+}
+button.accentButton:disabled:hover {
+  background: #CCCCCC;
+  border-color: #CCCCCC;
+}
+.theme-dark button.accentButton:disabled {
+  background: #333333;
+  border-color: #333333;
+  color: #565656;
+}
+.theme-dark button.accentButton:disabled:hover {
+  background: #333333;
+  border-color: #333333;
+}
+
+input[type=checkbox].checkbox {
+  border: 2px solid #000;
+  display: inline-block;
+  height: 15px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 10px;
+  margin-top: 0;
+  outline: none;
+  transition: background 100ms linear;
+  vertical-align: middle;
+  width: 15px;
+  -webkit-appearance: none;
+}
+input[type=checkbox].checkbox:hover, input[type=checkbox].checkbox:focus {
+  border: 2px solid #555;
+}
+.theme-dark input[type=checkbox].checkbox {
+  border: 2px solid #FFF;
+}
+.theme-dark input[type=checkbox].checkbox:hover, .theme-dark input[type=checkbox].checkbox:focus {
+  border: 2px solid #BBB;
+}
+input[type=checkbox].checkbox ~ label {
+  display: inline-block;
+  line-height: 14px;
+  max-width: 200px;
+  position: relative;
+  user-select: none;
+  vertical-align: middle;
+}
+input[type=checkbox].checkbox ~ label:hover, input[type=checkbox].checkbox ~ label:focus {
+  color: #555;
+}
+.theme-dark input[type=checkbox].checkbox ~ label:hover, .theme-dark input[type=checkbox].checkbox ~ label:focus {
+  color: #BBB;
+}
+input[type=checkbox].checkbox:empty ~ label {
+  cursor: pointer;
+  user-select: none;
+}
+input[type=checkbox].checkbox:empty ~ label:before {
+  content: '';
+  height: 5px;
+  position: absolute;
+  width: 10px;
+}
+.accentColor-1 input[type=checkbox].checkbox:checked {
+  background-color: #FFB900;
+  border-color: #FFB900;
+}
+.accentColor-2 input[type=checkbox].checkbox:checked {
+  background-color: #E74856;
+  border-color: #E74856;
+}
+.accentColor-3 input[type=checkbox].checkbox:checked {
+  background-color: #0078D7;
+  border-color: #0078D7;
+}
+.accentColor-4 input[type=checkbox].checkbox:checked {
+  background-color: #0099BC;
+  border-color: #0099BC;
+}
+.accentColor-5 input[type=checkbox].checkbox:checked {
+  background-color: #7A7574;
+  border-color: #7A7574;
+}
+.accentColor-6 input[type=checkbox].checkbox:checked {
+  background-color: #767676;
+  border-color: #767676;
+}
+.accentColor-7 input[type=checkbox].checkbox:checked {
+  background-color: #FF8C00;
+  border-color: #FF8C00;
+}
+.accentColor-8 input[type=checkbox].checkbox:checked {
+  background-color: #E81123;
+  border-color: #E81123;
+}
+.accentColor-9 input[type=checkbox].checkbox:checked {
+  background-color: #0063B1;
+  border-color: #0063B1;
+}
+.accentColor-10 input[type=checkbox].checkbox:checked {
+  background-color: #2D7D9A;
+  border-color: #2D7D9A;
+}
+.accentColor-11 input[type=checkbox].checkbox:checked {
+  background-color: #5D5A58;
+  border-color: #5D5A58;
+}
+.accentColor-12 input[type=checkbox].checkbox:checked {
+  background-color: #4C4A48;
+  border-color: #4C4A48;
+}
+input[type=checkbox].checkbox:checked ~ label:before {
+  color: #FFF;
+  content: '\e73e';
+  font-family: "Segoe MDL2 Assets";
+  font-size: 14px;
+  left: -29px;
+  margin-top: -4px;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.accentColor-1 input[type=checkbox].checkbox:checked:hover, .accentColor-1 input[type=checkbox].checkbox:checked:focus {
+  background-color: #ffc733;
+  border-color: #ffc733;
+}
+.accentColor-2 input[type=checkbox].checkbox:checked:hover, .accentColor-2 input[type=checkbox].checkbox:checked:focus {
+  background-color: #ed7580;
+  border-color: #ed7580;
+}
+.accentColor-3 input[type=checkbox].checkbox:checked:hover, .accentColor-3 input[type=checkbox].checkbox:checked:focus {
+  background-color: #0b93ff;
+  border-color: #0b93ff;
+}
+.accentColor-4 input[type=checkbox].checkbox:checked:hover, .accentColor-4 input[type=checkbox].checkbox:checked:focus {
+  background-color: #00c3ef;
+  border-color: #00c3ef;
+}
+.accentColor-5 input[type=checkbox].checkbox:checked:hover, .accentColor-5 input[type=checkbox].checkbox:checked:focus {
+  background-color: #938f8e;
+  border-color: #938f8e;
+}
+.accentColor-6 input[type=checkbox].checkbox:checked:hover, .accentColor-6 input[type=checkbox].checkbox:checked:focus {
+  background-color: #909090;
+  border-color: #909090;
+}
+.accentColor-7 input[type=checkbox].checkbox:checked:hover, .accentColor-7 input[type=checkbox].checkbox:checked:focus {
+  background-color: #ffa333;
+  border-color: #ffa333;
+}
+.accentColor-8 input[type=checkbox].checkbox:checked:hover, .accentColor-8 input[type=checkbox].checkbox:checked:focus {
+  background-color: #f13b4b;
+  border-color: #f13b4b;
+}
+.accentColor-9 input[type=checkbox].checkbox:checked:hover, .accentColor-9 input[type=checkbox].checkbox:checked:focus {
+  background-color: #0080e4;
+  border-color: #0080e4;
+}
+.accentColor-10 input[type=checkbox].checkbox:checked:hover, .accentColor-10 input[type=checkbox].checkbox:checked:focus {
+  background-color: #399dc1;
+  border-color: #399dc1;
+}
+.accentColor-11 input[type=checkbox].checkbox:checked:hover, .accentColor-11 input[type=checkbox].checkbox:checked:focus {
+  background-color: #777371;
+  border-color: #777371;
+}
+.accentColor-12 input[type=checkbox].checkbox:checked:hover, .accentColor-12 input[type=checkbox].checkbox:checked:focus {
+  background-color: #666461;
+  border-color: #666461;
+}
+input[type=checkbox].toggleSwitch {
+  border: none;
+  height: auto;
+  width: auto;
+}
+input[type=checkbox].toggleSwitch:empty {
+  margin-left: -999px;
+}
+input[type=checkbox].toggleSwitch:empty ~ label {
+  position: relative;
+  float: left;
+  line-height: 21px;
+  text-indent: 4em;
+  margin: 0.2em 0;
+  cursor: pointer;
+  vertical-align: auto;
+  user-select: none;
+}
+input[type=checkbox].toggleSwitch:empty ~ label:before, input[type=checkbox].toggleSwitch:empty ~ label:after {
+  border: 2px solid #000000;
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+  width: 2.8em;
+  height: auto;
+  background-color: transparent;
+  border-radius: 20px;
+  -webkit-transition: margin-left 100ms ease-in;
+  transition: margin-left 100ms ease-in;
+}
+.theme-dark input[type=checkbox].toggleSwitch:empty ~ label:before, .theme-dark input[type=checkbox].toggleSwitch:empty ~ label:after {
+  border-color: #FFFFFF;
+}
+input[type=checkbox].toggleSwitch:empty ~ label:after {
+  width: 11px;
+  top: 5px;
+  bottom: 0.45em;
+  margin-left: 6px;
+  background-color: #000000;
+  border-radius: 100%;
+  border: none;
+  height: 11px;
+}
+.theme-dark input[type=checkbox].toggleSwitch:empty ~ label:after {
+  background-color: #FFFFFF;
+}
+.accentColor-1 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #FFB900;
+  border-color: #FFB900;
+}
+.accentColor-2 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #E74856;
+  border-color: #E74856;
+}
+.accentColor-3 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #0078D7;
+  border-color: #0078D7;
+}
+.accentColor-4 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #0099BC;
+  border-color: #0099BC;
+}
+.accentColor-5 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #7A7574;
+  border-color: #7A7574;
+}
+.accentColor-6 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #767676;
+  border-color: #767676;
+}
+.accentColor-7 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #FF8C00;
+  border-color: #FF8C00;
+}
+.accentColor-8 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #E81123;
+  border-color: #E81123;
+}
+.accentColor-9 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #0063B1;
+  border-color: #0063B1;
+}
+.accentColor-10 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #2D7D9A;
+  border-color: #2D7D9A;
+}
+.accentColor-11 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #5D5A58;
+  border-color: #5D5A58;
+}
+.accentColor-12 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #4C4A48;
+  border-color: #4C4A48;
+}
+input[type=checkbox].toggleSwitch:checked ~ label:after {
+  background-color: #FFFFFF;
+  margin-left: 1.95em;
+}
+.accentColor-1 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #ffc733;
+  border-color: #ffc733;
+}
+.accentColor-2 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #ed7580;
+  border-color: #ed7580;
+}
+.accentColor-3 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #0b93ff;
+  border-color: #0b93ff;
+}
+.accentColor-4 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #00c3ef;
+  border-color: #00c3ef;
+}
+.accentColor-5 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #938f8e;
+  border-color: #938f8e;
+}
+.accentColor-6 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #909090;
+  border-color: #909090;
+}
+.accentColor-7 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #ffa333;
+  border-color: #ffa333;
+}
+.accentColor-8 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #f13b4b;
+  border-color: #f13b4b;
+}
+.accentColor-9 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #0080e4;
+  border-color: #0080e4;
+}
+.accentColor-10 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #399dc1;
+  border-color: #399dc1;
+}
+.accentColor-11 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #777371;
+  border-color: #777371;
+}
+.accentColor-12 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #666461;
+  border-color: #666461;
+}
+.accentColor-1.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #cc9400;
+  border-color: #cc9400;
+}
+.accentColor-2.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #df1d2e;
+  border-color: #df1d2e;
+}
+.accentColor-3.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #005ca4;
+  border-color: #005ca4;
+}
+.accentColor-4.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #006f89;
+  border-color: #006f89;
+}
+.accentColor-5.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #605c5b;
+  border-color: #605c5b;
+}
+.accentColor-6.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #5d5d5d;
+  border-color: #5d5d5d;
+}
+.accentColor-7.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #cc7000;
+  border-color: #cc7000;
+}
+.accentColor-8.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #b80e1c;
+  border-color: #b80e1c;
+}
+.accentColor-9.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #00467e;
+  border-color: #00467e;
+}
+.accentColor-10.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #215d73;
+  border-color: #215d73;
+}
+.accentColor-11.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #43413f;
+  border-color: #43413f;
+}
+.accentColor-12.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #32312f;
+  border-color: #32312f;
+}
+
+input[type=text] {
+  background: transparent;
+  border: 2px solid #666;
+  font-family: 'segoe ui';
+  outline: none;
+  padding: 4px 10px;
+}
+.theme-dark input[type=text] {
+  color: #fff;
+}
+input[type=text]:hover {
+  border: 2px solid #888;
+}
+input[type=text]:focus {
+  background: #fff;
+  color: #000;
+}
+.accentColor-1 input[type=text]:focus {
+  border-color: #FFB900;
+}
+.accentColor-2 input[type=text]:focus {
+  border-color: #E74856;
+}
+.accentColor-3 input[type=text]:focus {
+  border-color: #0078D7;
+}
+.accentColor-4 input[type=text]:focus {
+  border-color: #0099BC;
+}
+.accentColor-5 input[type=text]:focus {
+  border-color: #7A7574;
+}
+.accentColor-6 input[type=text]:focus {
+  border-color: #767676;
+}
+.accentColor-7 input[type=text]:focus {
+  border-color: #FF8C00;
+}
+.accentColor-8 input[type=text]:focus {
+  border-color: #E81123;
+}
+.accentColor-9 input[type=text]:focus {
+  border-color: #0063B1;
+}
+.accentColor-10 input[type=text]:focus {
+  border-color: #2D7D9A;
+}
+.accentColor-11 input[type=text]:focus {
+  border-color: #5D5A58;
+}
+.accentColor-12 input[type=text]:focus {
+  border-color: #4C4A48;
+}
+
+select {
+  background: transparent;
+  border: 2px solid #666;
+  font-family: 'segoe ui';
+  outline: none;
+  padding: 4px 6px;
+  width: 170px;
+}
+.theme-dark select {
+  color: #fff;
+}
+select:hover {
+  border: 2px solid #888;
+}
+select:focus {
+  background: #fff;
+  color: #000;
+}
+.accentColor-1 select:focus {
+  border-color: #FFB900;
+}
+.accentColor-2 select:focus {
+  border-color: #E74856;
+}
+.accentColor-3 select:focus {
+  border-color: #0078D7;
+}
+.accentColor-4 select:focus {
+  border-color: #0099BC;
+}
+.accentColor-5 select:focus {
+  border-color: #7A7574;
+}
+.accentColor-6 select:focus {
+  border-color: #767676;
+}
+.accentColor-7 select:focus {
+  border-color: #FF8C00;
+}
+.accentColor-8 select:focus {
+  border-color: #E81123;
+}
+.accentColor-9 select:focus {
+  border-color: #0063B1;
+}
+.accentColor-10 select:focus {
+  border-color: #2D7D9A;
+}
+.accentColor-11 select:focus {
+  border-color: #5D5A58;
+}
+.accentColor-12 select:focus {
+  border-color: #4C4A48;
+}
+
+section {
+  box-sizing: border-box;
+  padding: 0;
+}
+section.sidebar {
+  background: #F2F2F2;
+  height: calc(100% - 50px);
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 50px;
+  width: 0;
+}
+@media (min-width: 400px) {
+  section.sidebar {
+    width: 50px;
+  }
+}
+@media (min-width: 700px) {
+  section.sidebar {
+    width: 250px;
+  }
+}
+.theme-dark section.sidebar {
+  background: #2B2B2B;
+}
+section.sidebar.open {
+  width: 250px;
+  z-index: 1;
+}
+section.contentArea {
+  height: calc(100% - 50px);
+  left: 0;
+  overflow: auto;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+@media (min-width: 400px) {
+  section.contentArea {
+    left: 50px;
+    width: calc(100% - 50px);
+  }
+}
+@media (min-width: 700px) {
+  section.contentArea {
+    left: 250px;
+    width: calc(100% - 250px);
+  }
+}
+
+.hamburger-container {
+  background: #F2F2F2;
+  width: 50px;
+}
+@media (min-width: 700px) {
+  .hamburger-container {
+    width: 250px;
+  }
+}
+.theme-dark .hamburger-container {
+  background: #2B2B2B;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: table;
+  height: 30px;
+  padding: 10px 0;
+  width: 50px;
+  vertical-align: middle;
+}
+.hamburger:before {
+  content: " ";
+  height: 50px;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+.hamburger:hover:before {
+  background: #CCCCCC;
+}
+.theme-dark .hamburger:hover:before {
+  background: #333333;
+}
+.hamburger .icon {
+  position: relative;
+}
+
+.control {
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.control:last-of-type {
+  padding-bottom: 50px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+.accentColor-1 a {
+  color: #FFB900;
+}
+.accentColor-2 a {
+  color: #E74856;
+}
+.accentColor-3 a {
+  color: #0078D7;
+}
+.accentColor-4 a {
+  color: #0099BC;
+}
+.accentColor-5 a {
+  color: #7A7574;
+}
+.accentColor-6 a {
+  color: #767676;
+}
+.accentColor-7 a {
+  color: #FF8C00;
+}
+.accentColor-8 a {
+  color: #E81123;
+}
+.accentColor-9 a {
+  color: #0063B1;
+}
+.accentColor-10 a {
+  color: #2D7D9A;
+}
+.accentColor-11 a {
+  color: #5D5A58;
+}
+.accentColor-12 a {
+  color: #4C4A48;
+}
+a:hover, a:focus {
+  color: #666666;
+}
+a:active {
+  color: #8c8c8c;
+}
+.theme-dark a:hover, .theme-dark a:focus {
+  color: #999999;
+}
+.theme-dark a:active {
+  color: #737373;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.sidebar ul li {
+  cursor: pointer;
+  display: table;
+  height: 30px;
+  padding: 10px 0;
+  user-select: none;
+  vertical-align: middle;
+  width: 250px;
+}
+.sidebar ul li:hover {
+  background: #CCCCCC;
+}
+.theme-dark .sidebar ul li:hover {
+  background: #333333;
+}
+.accentColor-1 .sidebar ul li.active {
+  background-color: rgba(255, 185, 0, 0.3);
+}
+.accentColor-1 .sidebar ul li.active:hover {
+  background-color: rgba(255, 185, 0, 0.5);
+}
+.accentColor-2 .sidebar ul li.active {
+  background-color: rgba(231, 72, 86, 0.3);
+}
+.accentColor-2 .sidebar ul li.active:hover {
+  background-color: rgba(231, 72, 86, 0.5);
+}
+.accentColor-3 .sidebar ul li.active {
+  background-color: rgba(0, 120, 215, 0.3);
+}
+.accentColor-3 .sidebar ul li.active:hover {
+  background-color: rgba(0, 120, 215, 0.5);
+}
+.accentColor-4 .sidebar ul li.active {
+  background-color: rgba(0, 153, 188, 0.3);
+}
+.accentColor-4 .sidebar ul li.active:hover {
+  background-color: rgba(0, 153, 188, 0.5);
+}
+.accentColor-5 .sidebar ul li.active {
+  background-color: rgba(122, 117, 116, 0.3);
+}
+.accentColor-5 .sidebar ul li.active:hover {
+  background-color: rgba(122, 117, 116, 0.5);
+}
+.accentColor-6 .sidebar ul li.active {
+  background-color: rgba(118, 118, 118, 0.3);
+}
+.accentColor-6 .sidebar ul li.active:hover {
+  background-color: rgba(118, 118, 118, 0.5);
+}
+.accentColor-7 .sidebar ul li.active {
+  background-color: rgba(255, 140, 0, 0.3);
+}
+.accentColor-7 .sidebar ul li.active:hover {
+  background-color: rgba(255, 140, 0, 0.5);
+}
+.accentColor-8 .sidebar ul li.active {
+  background-color: rgba(232, 17, 35, 0.3);
+}
+.accentColor-8 .sidebar ul li.active:hover {
+  background-color: rgba(232, 17, 35, 0.5);
+}
+.accentColor-9 .sidebar ul li.active {
+  background-color: rgba(0, 99, 177, 0.3);
+}
+.accentColor-9 .sidebar ul li.active:hover {
+  background-color: rgba(0, 99, 177, 0.5);
+}
+.accentColor-10 .sidebar ul li.active {
+  background-color: rgba(45, 125, 154, 0.3);
+}
+.accentColor-10 .sidebar ul li.active:hover {
+  background-color: rgba(45, 125, 154, 0.5);
+}
+.accentColor-11 .sidebar ul li.active {
+  background-color: rgba(93, 90, 88, 0.3);
+}
+.accentColor-11 .sidebar ul li.active:hover {
+  background-color: rgba(93, 90, 88, 0.5);
+}
+.accentColor-12 .sidebar ul li.active {
+  background-color: rgba(76, 74, 72, 0.3);
+}
+.accentColor-12 .sidebar ul li.active:hover {
+  background-color: rgba(76, 74, 72, 0.5);
+}
+
+.icon, .title {
+  display: table-cell;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.colorSquaresContainer {
+  clear: both;
+}
+
+.colorSquare {
+  float: left;
+  height: 40px;
+  margin: 2px;
+  width: 40px;
+}
+.colorSquare.accentColor-1 {
+  background-color: #FFB900;
+}
+.colorSquare.accentColor-2 {
+  background-color: #E74856;
+}
+.colorSquare.accentColor-3 {
+  background-color: #0078D7;
+}
+.colorSquare.accentColor-4 {
+  background-color: #0099BC;
+}
+.colorSquare.accentColor-5 {
+  background-color: #7A7574;
+}
+.colorSquare.accentColor-6 {
+  background-color: #767676;
+}
+.colorSquare.accentColor-7 {
+  background-color: #FF8C00;
+}
+.colorSquare.accentColor-8 {
+  background-color: #E81123;
+}
+.colorSquare.accentColor-9 {
+  background-color: #0063B1;
+}
+.colorSquare.accentColor-10 {
+  background-color: #2D7D9A;
+}
+.colorSquare.accentColor-11 {
+  background-color: #5D5A58;
+}
+.colorSquare.accentColor-12 {
+  background-color: #4C4A48;
+}
+.colorSquare.selected {
+  border: 2px solid #000000;
+  margin: 0;
+}
+.theme-dark .colorSquare.selected {
+  border-color: #FFFFFF;
+}
+
+/*# sourceMappingURL=main.css.map */

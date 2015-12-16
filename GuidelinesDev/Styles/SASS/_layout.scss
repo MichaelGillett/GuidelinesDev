@@ -1,0 +1,104 @@
+﻿section {
+    box-sizing: border-box;
+    padding: 0;
+
+    &.sidebar {
+        background: $lightThemeForeground;
+        height: calc(100% - 50px);
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 50px;
+        width: 0;
+
+        @media(min-width: $breakpoint-small) {
+            width: 50px;
+        }
+
+        @media(min-width: $breakpoint-medium) {
+            width: 250px;
+        }
+
+        .theme-dark & {
+            background: $darkThemeForeground;
+        }
+
+        &.open {
+            width: 250px;
+            z-index: 1;
+        }
+    }
+
+    &.contentArea {
+        height: calc(100% - 50px);
+        left: 0;
+        overflow: auto;
+        padding: 10px;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        
+        @media(min-width: $breakpoint-small) {
+            left: 50px;
+            width: calc(100% - 50px);
+        }
+
+        @media(min-width: $breakpoint-medium) {
+            left: 250px;
+            width: calc(100% - 250px);
+        }
+    }
+}
+
+.hamburger-container {
+    background: $lightThemeForeground;
+    width: 50px;
+
+    @media(min-width: $breakpoint-medium) {
+        width: 250px;
+    }
+
+    .theme-dark & {
+        background: $darkThemeForeground;
+    }
+}
+
+.hamburger {
+    cursor: pointer;
+    display: table;
+    height: 30px;
+    padding: 10px 0;
+    width: 50px;
+    vertical-align: middle;
+
+    &:before {
+        content: " ";
+        height: 50px;
+        position: absolute;
+        top: 0;
+        width: 50px;
+    }
+
+    &:hover {
+        &:before {
+            background: $lightThemeButtonBackgroundPrimary;
+
+            .theme-dark & {
+                background: $darkThemeButtonBackgroundPrimary;
+            }
+        }
+    }
+
+    .icon {
+        position: relative;
+    }
+}
+
+.control {
+    box-sizing: border-box;
+    padding: 10px 0;
+
+    &:last-of-type {
+        padding-bottom: 50px;
+    }
+}

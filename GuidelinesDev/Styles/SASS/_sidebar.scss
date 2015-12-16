@@ -1,0 +1,35 @@
+﻿.sidebar {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+
+        li {
+            cursor: pointer;
+            display: table;
+            height: 30px;
+            padding: 10px 0;
+            user-select: none;
+            vertical-align: middle;
+            width: 250px;
+
+            &:hover {
+                background: $lightThemeButtonBackgroundPrimary;
+
+                .theme-dark & {
+                    background: $darkThemeButtonBackgroundPrimary;
+                }
+            }
+
+            &.active {
+                @include accentColorBackgroundTransparentAnd();
+            }
+        }
+    }
+}
+
+.icon, .title {
+    display: table-cell;
+    user-select: none;
+    vertical-align: middle;
+}

@@ -1,0 +1,216 @@
+﻿input[type=checkbox] {
+    &.checkbox {
+        border: 2px solid #000;
+        display: inline-block;
+        height: 15px;
+
+        margin: {
+            bottom: 0;
+            left: 0;
+            right: 10px;
+            top: 0;
+        }
+
+        outline: none;
+        transition: background 100ms linear;
+        vertical-align: middle;
+        width: 15px;
+
+        -webkit-appearance: none;
+
+        &:hover,
+        &:focus {
+            border: 2px solid #555;
+        }
+
+        .theme-dark & {
+            border: 2px solid #FFF;
+
+            &:hover,
+            &:focus {
+                border: 2px solid #BBB;
+            }
+        }
+
+        & ~ label {
+            display: inline-block;
+            line-height: 14px;
+            max-width: 200px;
+            position: relative;
+            user-select: none;
+            vertical-align: middle;
+
+            &:hover,
+            &:focus {
+                color: #555;
+            }
+
+            .theme-dark & {
+
+                &:hover,
+                &:focus {
+                    color: #BBB;
+                }
+            }
+        }
+
+        &:empty {
+
+            & ~ label {
+                cursor: pointer;
+                user-select: none;
+
+                &:before {
+                    content: '';
+                    height: 5px;
+                    position: absolute;
+                    width: 10px;
+                }
+            }
+        }
+
+        &:checked {
+            @include accentColorBackgroundBorderAnd();
+
+            & ~ label:before {
+                color: #FFF;
+                content: '\e73e';
+                font: {
+                    family: $symbolsFontFamily;
+                    size: 14px;
+                }
+                left: -29px;
+                margin-top: -4px;
+                transform: translateY(-50%);
+                top: 50%;
+            }
+
+            &:hover,
+            &:focus {
+                @include accentLightenColorBackgroundBorderAnd();
+            }
+        }
+    }
+
+    &.toggleSwitch {
+
+        border: none;
+        height: auto;
+        width: auto;
+
+        &:empty {
+            margin-left: -999px;
+
+            & ~ label {
+                position: relative;
+	            float: left;
+	            line-height: 21px;
+	            text-indent: 4em;
+	            margin: 0.2em 0;
+	            cursor: pointer;
+                vertical-align: auto;
+                user-select: none;
+
+                &:before, 
+                &:after {
+                    border: 2px solid $lightThemeToggleSwitch;
+	                position: absolute;
+	                display: block;
+	                top: 0;
+	                bottom: 0;
+	                left: 0;
+	                content: ' ';
+	                width: 2.8em;
+                    height: auto;
+	                background-color: transparent;
+	                border-radius: 20px;
+	                -webkit-transition: margin-left 100ms ease-in;
+                    transition: margin-left 100ms ease-in;
+
+                    .theme-dark & {
+                        border-color: $darkThemeToggleSwitch;
+                    }
+                }
+
+                &:after {
+                    width: 11px;
+                    top: 5px;
+                    bottom: 0.45em;
+                    margin-left: 6px;
+                    background-color: $lightThemeToggleSwitch;
+                    border-radius: 100%;
+                    border: none;
+                    height: 11px;
+
+                    .theme-dark & {
+                        background-color: $darkThemeToggleSwitch;
+                    }
+                }
+            }
+        }
+
+        &:checked ~ label {
+            &:before {
+                @include accentColorBackgroundBorderAnd();
+            }
+
+            &:after {
+                background-color: $darkThemeToggleSwitch;
+	            margin-left: 1.95em;
+            }
+
+            &:hover:before {
+                @include accentLightenColorBackgroundBorderAnd();
+
+                @include accentDarkenColorBackgroundBorderDarkAnd();
+            }
+        }
+    }
+}
+
+input[type=text] {
+    background: transparent;
+    border: 2px solid #666;
+    font-family: 'segoe ui';
+    outline: none;
+    padding: 4px 10px;
+
+    .theme-dark & {
+        color: #fff;
+    }
+
+    &:hover {
+        border: 2px solid #888;
+    }
+
+    &:focus {
+        background: #fff;
+        color: #000;
+
+        @include accentBorderAnd();
+    }
+}
+
+select {
+    background: transparent;
+    border: 2px solid #666;
+    font-family: 'segoe ui';
+    outline: none;
+    padding: 4px 6px;
+    width: 170px;
+
+    .theme-dark & {
+        color: #fff;
+    }
+
+    &:hover {
+        border: 2px solid #888;
+    }
+
+    &:focus {
+        background: #fff;
+        color: #000;
+
+        @include accentBorderAnd();
+    }
+}

@@ -1,0 +1,53 @@
+﻿// Break points
+$breakpoint-small: 400px;
+$breakpoint-medium: 700px;
+
+// Colors - Light Theme
+$lightThemeBackground: #FFFFFF;
+$lightThemeForeground: #F2F2F2;
+$lightThemeForegroundSecondary: #E6E6E6;
+
+$lightThemeFontColorPrimary: #000000;
+$lightThemeFontColorSecondary: #666666;
+$lightThemeFontColorDisabled: #A6A6A6;
+
+$lightThemeButtonBackgroundPrimary: #CCCCCC;
+$lightThemeButtonBackgroundSecondary: #7A7A7A;
+$lightThemeButtonSelected: #000000;
+
+$lightThemeToggleSwitch: #000000;
+
+// Colors - Dark Theme
+$darkThemeBackground: #000000;
+$darkThemeForeground: #2B2B2B;
+$darkThemeForegroundSecondary: #1F1F1F;
+
+$darkThemeFontColorPrimary: #FFFFFF;
+$darkThemeFontColorSecondary: #999999;
+$darkThemeFontColorDisabled: #565656;
+
+$darkThemeButtonBackgroundPrimary: #333333;
+$darkThemeButtonBackgroundSecondary: #858585;
+$darkThemeButtonSelected: #FFFFFF;
+
+$darkThemeToggleSwitch: #FFFFFF;
+
+// Colors - Accent
+$acentColorYellow: #FFB900;
+$acentColorPeach: #E74856;
+$acentColorLightBlue: #0078D7;
+$acentColorTeal: #0099BC;
+$acentColorGrey1: #7A7574;
+$acentColorGrey2: #767676;
+$acentColorOrange: #FF8C00;
+$acentColorRed: #E81123;
+$acentColorBlue: #0063B1;
+$acentColorDarkTeal: #2D7D9A;
+$acentColorDarkGrey1: #5D5A58;
+$acentColorDarkGrey2: #4C4A48;
+
+$accentColors: $acentColorYellow $acentColorPeach $acentColorLightBlue $acentColorTeal $acentColorGrey1 $acentColorGrey2 $acentColorOrange $acentColorRed $acentColorBlue $acentColorDarkTeal $acentColorDarkGrey1 $acentColorDarkGrey2;
+
+// Fonts
+$primaryFontFamily: 'Segoe UI', Arial, sans-serif;
+$symbolsFontFamily: 'Segoe MDL2 Assets';

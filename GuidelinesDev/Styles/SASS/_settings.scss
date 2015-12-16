@@ -1,0 +1,23 @@
+﻿.colorSquaresContainer {
+
+    clear: both;
+}
+
+.colorSquare {
+    //box-sizing: border-box;
+    float: left;
+    height: 40px;
+    margin: 2px;
+    width: 40px;
+
+    @include accentColorBackground();
+
+    &.selected {
+        border: 2px solid $lightThemeButtonSelected;
+        margin: 0;
+
+        .theme-dark & {
+            border-color: $darkThemeButtonSelected
+        }
+    }
+}
