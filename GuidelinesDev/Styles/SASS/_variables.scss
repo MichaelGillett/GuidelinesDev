@@ -33,20 +33,70 @@ $darkThemeButtonSelected: #FFFFFF;
 $darkThemeToggleSwitch: #FFFFFF;
 
 // Colors - Accent
-$acentColorYellow: #FFB900;
-$acentColorPeach: #E74856;
-$acentColorLightBlue: #0078D7;
-$acentColorTeal: #0099BC;
-$acentColorGrey1: #7A7574;
-$acentColorGrey2: #767676;
-$acentColorOrange: #FF8C00;
-$acentColorRed: #E81123;
-$acentColorBlue: #0063B1;
-$acentColorDarkTeal: #2D7D9A;
-$acentColorDarkGrey1: #5D5A58;
-$acentColorDarkGrey2: #4C4A48;
+$accentColorYellow: #FFB900;
+$accentColorPeach: #E74856;
+$accentColorLightBlue: #0078D7;
+$accentColorTeal: #0099BC;
+$accentColorGrey1: #7A7574;
+$accentColorGrey2: #767676;
 
-$accentColors: $acentColorYellow $acentColorPeach $acentColorLightBlue $acentColorTeal $acentColorGrey1 $acentColorGrey2 $acentColorOrange $acentColorRed $acentColorBlue $acentColorDarkTeal $acentColorDarkGrey1 $acentColorDarkGrey2;
+$accentColorOrange: #FF8C00;
+$accentColorRed: #E81123;
+$accentColorBlue: #0063B1;
+$accentColorDarkTeal: #2D7D9A;
+$accentColorDarkGrey1: #5D5A58;
+$accentColorDarkGrey2: #4C4A48;
+
+$accentColorDarkOrange: #F7630C;
+$accentColorMagenta: #EA005E;
+$accentColorLilac: #8E8CD8;
+$accentColorTurquoise: #00B7C3;
+$accentColorBlueGrey1: #68768A;
+$accentColorBlueGrey2: #69797E;
+
+$accentColorRust: #CA5010;
+$accentColorDarkMagenta: #C30052;
+$accentColorLavendar: #6B69D6;
+$accentColorDarkTurquoise: #038387;
+$accentColorDarkBlueGrey1: #515C6B;
+$accentColorDarkBlueGrey2: #4A5459;
+
+$accentColorBloodOrange: #DA3B01;
+$accentColorPink: #E3008C;
+$accentColorDarkLavendar: #8764B8;
+$accentColorLime: #00B294;
+$accentColorGreenGrey1: #567C73;
+$accentColorGreenGrey2: #647C64;
+
+$accentColorLightBloodOrange: #EF6950;
+$accentColorDarkPink: #BF0077;
+$accentColorIndigo: #744DA9;
+$accentColorDarkLime: #018574;
+$accentColorDarkGreenGrey1: #486860;
+$accentColorDarkGreenGrey2: #525E54;
+
+$accentColorDarkSalmon: #D13438;
+$accentColorLightPurple: #C239B3;
+$accentColorLightIndigo: #B146C2;
+$accentColorBrightGreen: #00CC6A;
+$accentColorGrass: #498205;
+$accentColorKhaki: #847545;
+
+$accentColorSalmon: #FF4343;
+$accentColorPurple: #9A0089;
+$accentColorDarkPurple: #881798;
+$accentColorGreen: #10893E;
+$accentColorDarkGreen: #107C10;
+$accentColorTan: #7E735F;
+
+$accentColors: $accentColorYellow $accentColorPeach $accentColorLightBlue $accentColorTeal $accentColorGrey1 $accentColorGrey2
+               $accentColorOrange $accentColorRed $accentColorBlue $accentColorDarkTeal $accentColorDarkGrey1 $accentColorDarkGrey2
+               $accentColorDarkOrange $accentColorMagenta $accentColorLilac $accentColorTurquoise $accentColorBlueGrey1 $accentColorBlueGrey2
+               $accentColorRust $accentColorDarkMagenta $accentColorLavendar $accentColorDarkTurquoise $accentColorDarkBlueGrey1 $accentColorDarkBlueGrey2
+               $accentColorBloodOrange $accentColorPink $accentColorDarkLavendar $accentColorLime $accentColorGreenGrey1 $accentColorGreenGrey2
+               $accentColorLightBloodOrange $accentColorDarkPink $accentColorIndigo $accentColorDarkLime $accentColorDarkGreenGrey1 $accentColorDarkGreenGrey2
+               $accentColorDarkSalmon $accentColorLightPurple $accentColorLightIndigo $accentColorBrightGreen $accentColorGrass $accentColorKhaki
+               $accentColorSalmon $accentColorPurple $accentColorDarkPurple $accentColorGreen $accentColorDarkGreen $accentColorTan;
 
 // Fonts
 $primaryFontFamily: 'Segoe UI', Arial, sans-serif;

@@ -208,6 +208,150 @@ button.accentButton {
   background-color: #4C4A48;
   border-color: #4C4A48;
 }
+.accentColor-13 button.accentButton {
+  background-color: #F7630C;
+  border-color: #F7630C;
+}
+.accentColor-14 button.accentButton {
+  background-color: #EA005E;
+  border-color: #EA005E;
+}
+.accentColor-15 button.accentButton {
+  background-color: #8E8CD8;
+  border-color: #8E8CD8;
+}
+.accentColor-16 button.accentButton {
+  background-color: #00B7C3;
+  border-color: #00B7C3;
+}
+.accentColor-17 button.accentButton {
+  background-color: #68768A;
+  border-color: #68768A;
+}
+.accentColor-18 button.accentButton {
+  background-color: #69797E;
+  border-color: #69797E;
+}
+.accentColor-19 button.accentButton {
+  background-color: #CA5010;
+  border-color: #CA5010;
+}
+.accentColor-20 button.accentButton {
+  background-color: #C30052;
+  border-color: #C30052;
+}
+.accentColor-21 button.accentButton {
+  background-color: #6B69D6;
+  border-color: #6B69D6;
+}
+.accentColor-22 button.accentButton {
+  background-color: #038387;
+  border-color: #038387;
+}
+.accentColor-23 button.accentButton {
+  background-color: #515C6B;
+  border-color: #515C6B;
+}
+.accentColor-24 button.accentButton {
+  background-color: #4A5459;
+  border-color: #4A5459;
+}
+.accentColor-25 button.accentButton {
+  background-color: #DA3B01;
+  border-color: #DA3B01;
+}
+.accentColor-26 button.accentButton {
+  background-color: #E3008C;
+  border-color: #E3008C;
+}
+.accentColor-27 button.accentButton {
+  background-color: #8764B8;
+  border-color: #8764B8;
+}
+.accentColor-28 button.accentButton {
+  background-color: #00B294;
+  border-color: #00B294;
+}
+.accentColor-29 button.accentButton {
+  background-color: #567C73;
+  border-color: #567C73;
+}
+.accentColor-30 button.accentButton {
+  background-color: #647C64;
+  border-color: #647C64;
+}
+.accentColor-31 button.accentButton {
+  background-color: #EF6950;
+  border-color: #EF6950;
+}
+.accentColor-32 button.accentButton {
+  background-color: #BF0077;
+  border-color: #BF0077;
+}
+.accentColor-33 button.accentButton {
+  background-color: #744DA9;
+  border-color: #744DA9;
+}
+.accentColor-34 button.accentButton {
+  background-color: #018574;
+  border-color: #018574;
+}
+.accentColor-35 button.accentButton {
+  background-color: #486860;
+  border-color: #486860;
+}
+.accentColor-36 button.accentButton {
+  background-color: #525E54;
+  border-color: #525E54;
+}
+.accentColor-37 button.accentButton {
+  background-color: #D13438;
+  border-color: #D13438;
+}
+.accentColor-38 button.accentButton {
+  background-color: #C239B3;
+  border-color: #C239B3;
+}
+.accentColor-39 button.accentButton {
+  background-color: #B146C2;
+  border-color: #B146C2;
+}
+.accentColor-40 button.accentButton {
+  background-color: #00CC6A;
+  border-color: #00CC6A;
+}
+.accentColor-41 button.accentButton {
+  background-color: #498205;
+  border-color: #498205;
+}
+.accentColor-42 button.accentButton {
+  background-color: #847545;
+  border-color: #847545;
+}
+.accentColor-43 button.accentButton {
+  background-color: #FF4343;
+  border-color: #FF4343;
+}
+.accentColor-44 button.accentButton {
+  background-color: #9A0089;
+  border-color: #9A0089;
+}
+.accentColor-45 button.accentButton {
+  background-color: #881798;
+  border-color: #881798;
+}
+.accentColor-46 button.accentButton {
+  background-color: #10893E;
+  border-color: #10893E;
+}
+.accentColor-47 button.accentButton {
+  background-color: #107C10;
+  border-color: #107C10;
+}
+.accentColor-48 button.accentButton {
+  background-color: #7E735F;
+  border-color: #7E735F;
+}
 .accentColor-1 button.accentButton:hover, .accentColor-1 button.accentButton:focus {
   background-color: #ffc733;
   border-color: #ffc733;
@@ -256,6 +400,150 @@ button.accentButton {
   background-color: #666461;
   border-color: #666461;
 }
+.accentColor-13 button.accentButton:hover, .accentColor-13 button.accentButton:focus {
+  background-color: #f9833d;
+  border-color: #f9833d;
+}
+.accentColor-14 button.accentButton:hover, .accentColor-14 button.accentButton:focus {
+  background-color: #ff1e78;
+  border-color: #ff1e78;
+}
+.accentColor-15 button.accentButton:hover, .accentColor-15 button.accentButton:focus {
+  background-color: #b3b2e5;
+  border-color: #b3b2e5;
+}
+.accentColor-16 button.accentButton:hover, .accentColor-16 button.accentButton:focus {
+  background-color: #00e7f6;
+  border-color: #00e7f6;
+}
+.accentColor-17 button.accentButton:hover, .accentColor-17 button.accentButton:focus {
+  background-color: #8390a2;
+  border-color: #8390a2;
+}
+.accentColor-18 button.accentButton:hover, .accentColor-18 button.accentButton:focus {
+  background-color: #839297;
+  border-color: #839297;
+}
+.accentColor-19 button.accentButton:hover, .accentColor-19 button.accentButton:focus {
+  background-color: #ed6620;
+  border-color: #ed6620;
+}
+.accentColor-20 button.accentButton:hover, .accentColor-20 button.accentButton:focus {
+  background-color: #f60067;
+  border-color: #f60067;
+}
+.accentColor-21 button.accentButton:hover, .accentColor-21 button.accentButton:focus {
+  background-color: #9391e1;
+  border-color: #9391e1;
+}
+.accentColor-22 button.accentButton:hover, .accentColor-22 button.accentButton:focus {
+  background-color: #04b3b9;
+  border-color: #04b3b9;
+}
+.accentColor-23 button.accentButton:hover, .accentColor-23 button.accentButton:focus {
+  background-color: #677588;
+  border-color: #677588;
+}
+.accentColor-24 button.accentButton:hover, .accentColor-24 button.accentButton:focus {
+  background-color: #616e75;
+  border-color: #616e75;
+}
+.accentColor-25 button.accentButton:hover, .accentColor-25 button.accentButton:focus {
+  background-color: #fe5010;
+  border-color: #fe5010;
+}
+.accentColor-26 button.accentButton:hover, .accentColor-26 button.accentButton:focus {
+  background-color: #ff17a6;
+  border-color: #ff17a6;
+}
+.accentColor-27 button.accentButton:hover, .accentColor-27 button.accentButton:focus {
+  background-color: #a287c8;
+  border-color: #a287c8;
+}
+.accentColor-28 button.accentButton:hover, .accentColor-28 button.accentButton:focus {
+  background-color: #00e5be;
+  border-color: #00e5be;
+}
+.accentColor-29 button.accentButton:hover, .accentColor-29 button.accentButton:focus {
+  background-color: #6c998e;
+  border-color: #6c998e;
+}
+.accentColor-30 button.accentButton:hover, .accentColor-30 button.accentButton:focus {
+  background-color: #7d967d;
+  border-color: #7d967d;
+}
+.accentColor-31 button.accentButton:hover, .accentColor-31 button.accentButton:focus {
+  background-color: #f3917f;
+  border-color: #f3917f;
+}
+.accentColor-32 button.accentButton:hover, .accentColor-32 button.accentButton:focus {
+  background-color: #f20097;
+  border-color: #f20097;
+}
+.accentColor-33 button.accentButton:hover, .accentColor-33 button.accentButton:focus {
+  background-color: #8e6dbc;
+  border-color: #8e6dbc;
+}
+.accentColor-34 button.accentButton:hover, .accentColor-34 button.accentButton:focus {
+  background-color: #01b8a0;
+  border-color: #01b8a0;
+}
+.accentColor-35 button.accentButton:hover, .accentColor-35 button.accentButton:focus {
+  background-color: #5d867c;
+  border-color: #5d867c;
+}
+.accentColor-36 button.accentButton:hover, .accentColor-36 button.accentButton:focus {
+  background-color: #6a796c;
+  border-color: #6a796c;
+}
+.accentColor-37 button.accentButton:hover, .accentColor-37 button.accentButton:focus {
+  background-color: #da5e61;
+  border-color: #da5e61;
+}
+.accentColor-38 button.accentButton:hover, .accentColor-38 button.accentButton:focus {
+  background-color: #d05ec3;
+  border-color: #d05ec3;
+}
+.accentColor-39 button.accentButton:hover, .accentColor-39 button.accentButton:focus {
+  background-color: #c16ccf;
+  border-color: #c16ccf;
+}
+.accentColor-40 button.accentButton:hover, .accentColor-40 button.accentButton:focus {
+  background-color: #00ff85;
+  border-color: #00ff85;
+}
+.accentColor-41 button.accentButton:hover, .accentColor-41 button.accentButton:focus {
+  background-color: #65b307;
+  border-color: #65b307;
+}
+.accentColor-42 button.accentButton:hover, .accentColor-42 button.accentButton:focus {
+  background-color: #a59357;
+  border-color: #a59357;
+}
+.accentColor-43 button.accentButton:hover, .accentColor-43 button.accentButton:focus {
+  background-color: #ff7676;
+  border-color: #ff7676;
+}
+.accentColor-44 button.accentButton:hover, .accentColor-44 button.accentButton:focus {
+  background-color: #cd00b6;
+  border-color: #cd00b6;
+}
+.accentColor-45 button.accentButton:hover, .accentColor-45 button.accentButton:focus {
+  background-color: #b01ec4;
+  border-color: #b01ec4;
+}
+.accentColor-46 button.accentButton:hover, .accentColor-46 button.accentButton:focus {
+  background-color: #15b753;
+  border-color: #15b753;
+}
+.accentColor-47 button.accentButton:hover, .accentColor-47 button.accentButton:focus {
+  background-color: #16a916;
+  border-color: #16a916;
+}
+.accentColor-48 button.accentButton:hover, .accentColor-48 button.accentButton:focus {
+  background-color: #998d77;
+  border-color: #998d77;
+}
 .accentColor-1.theme-dark button.accentButton:hover, .accentColor-1.theme-dark button.accentButton:focus {
   background-color: #cc9400;
   border-color: #cc9400;
@@ -303,6 +591,150 @@ button.accentButton {
 .accentColor-12.theme-dark button.accentButton:hover, .accentColor-12.theme-dark button.accentButton:focus {
   background-color: #32312f;
   border-color: #32312f;
+}
+.accentColor-13.theme-dark button.accentButton:hover, .accentColor-13.theme-dark button.accentButton:focus {
+  background-color: #c94f07;
+  border-color: #c94f07;
+}
+.accentColor-14.theme-dark button.accentButton:hover, .accentColor-14.theme-dark button.accentButton:focus {
+  background-color: #b7004a;
+  border-color: #b7004a;
+}
+.accentColor-15.theme-dark button.accentButton:hover, .accentColor-15.theme-dark button.accentButton:focus {
+  background-color: #6966cb;
+  border-color: #6966cb;
+}
+.accentColor-16.theme-dark button.accentButton:hover, .accentColor-16.theme-dark button.accentButton:focus {
+  background-color: #008790;
+  border-color: #008790;
+}
+.accentColor-17.theme-dark button.accentButton:hover, .accentColor-17.theme-dark button.accentButton:focus {
+  background-color: #525d6d;
+  border-color: #525d6d;
+}
+.accentColor-18.theme-dark button.accentButton:hover, .accentColor-18.theme-dark button.accentButton:focus {
+  background-color: #525e62;
+  border-color: #525e62;
+}
+.accentColor-19.theme-dark button.accentButton:hover, .accentColor-19.theme-dark button.accentButton:focus {
+  background-color: #9b3d0c;
+  border-color: #9b3d0c;
+}
+.accentColor-20.theme-dark button.accentButton:hover, .accentColor-20.theme-dark button.accentButton:focus {
+  background-color: #90003d;
+  border-color: #90003d;
+}
+.accentColor-21.theme-dark button.accentButton:hover, .accentColor-21.theme-dark button.accentButton:focus {
+  background-color: #4341cb;
+  border-color: #4341cb;
+}
+.accentColor-22.theme-dark button.accentButton:hover, .accentColor-22.theme-dark button.accentButton:focus {
+  background-color: #025355;
+  border-color: #025355;
+}
+.accentColor-23.theme-dark button.accentButton:hover, .accentColor-23.theme-dark button.accentButton:focus {
+  background-color: #3b434e;
+  border-color: #3b434e;
+}
+.accentColor-24.theme-dark button.accentButton:hover, .accentColor-24.theme-dark button.accentButton:focus {
+  background-color: #333a3d;
+  border-color: #333a3d;
+}
+.accentColor-25.theme-dark button.accentButton:hover, .accentColor-25.theme-dark button.accentButton:focus {
+  background-color: #a72d01;
+  border-color: #a72d01;
+}
+.accentColor-26.theme-dark button.accentButton:hover, .accentColor-26.theme-dark button.accentButton:focus {
+  background-color: #b0006d;
+  border-color: #b0006d;
+}
+.accentColor-27.theme-dark button.accentButton:hover, .accentColor-27.theme-dark button.accentButton:focus {
+  background-color: #6d49a0;
+  border-color: #6d49a0;
+}
+.accentColor-28.theme-dark button.accentButton:hover, .accentColor-28.theme-dark button.accentButton:focus {
+  background-color: #007f6a;
+  border-color: #007f6a;
+}
+.accentColor-29.theme-dark button.accentButton:hover, .accentColor-29.theme-dark button.accentButton:focus {
+  background-color: #415e57;
+  border-color: #415e57;
+}
+.accentColor-30.theme-dark button.accentButton:hover, .accentColor-30.theme-dark button.accentButton:focus {
+  background-color: #4d604d;
+  border-color: #4d604d;
+}
+.accentColor-31.theme-dark button.accentButton:hover, .accentColor-31.theme-dark button.accentButton:focus {
+  background-color: #eb4121;
+  border-color: #eb4121;
+}
+.accentColor-32.theme-dark button.accentButton:hover, .accentColor-32.theme-dark button.accentButton:focus {
+  background-color: #8c0057;
+  border-color: #8c0057;
+}
+.accentColor-33.theme-dark button.accentButton:hover, .accentColor-33.theme-dark button.accentButton:focus {
+  background-color: #5c3d86;
+  border-color: #5c3d86;
+}
+.accentColor-34.theme-dark button.accentButton:hover, .accentColor-34.theme-dark button.accentButton:focus {
+  background-color: #015248;
+  border-color: #015248;
+}
+.accentColor-35.theme-dark button.accentButton:hover, .accentColor-35.theme-dark button.accentButton:focus {
+  background-color: #334a44;
+  border-color: #334a44;
+}
+.accentColor-36.theme-dark button.accentButton:hover, .accentColor-36.theme-dark button.accentButton:focus {
+  background-color: #3a433c;
+  border-color: #3a433c;
+}
+.accentColor-37.theme-dark button.accentButton:hover, .accentColor-37.theme-dark button.accentButton:focus {
+  background-color: #ab272a;
+  border-color: #ab272a;
+}
+.accentColor-38.theme-dark button.accentButton:hover, .accentColor-38.theme-dark button.accentButton:focus {
+  background-color: #9b2d8f;
+  border-color: #9b2d8f;
+}
+.accentColor-39.theme-dark button.accentButton:hover, .accentColor-39.theme-dark button.accentButton:focus {
+  background-color: #9135a0;
+  border-color: #9135a0;
+}
+.accentColor-40.theme-dark button.accentButton:hover, .accentColor-40.theme-dark button.accentButton:focus {
+  background-color: #009950;
+  border-color: #009950;
+}
+.accentColor-41.theme-dark button.accentButton:hover, .accentColor-41.theme-dark button.accentButton:focus {
+  background-color: #2d5103;
+  border-color: #2d5103;
+}
+.accentColor-42.theme-dark button.accentButton:hover, .accentColor-42.theme-dark button.accentButton:focus {
+  background-color: #635733;
+  border-color: #635733;
+}
+.accentColor-43.theme-dark button.accentButton:hover, .accentColor-43.theme-dark button.accentButton:focus {
+  background-color: #ff1010;
+  border-color: #ff1010;
+}
+.accentColor-44.theme-dark button.accentButton:hover, .accentColor-44.theme-dark button.accentButton:focus {
+  background-color: #67005c;
+  border-color: #67005c;
+}
+.accentColor-45.theme-dark button.accentButton:hover, .accentColor-45.theme-dark button.accentButton:focus {
+  background-color: #60106c;
+  border-color: #60106c;
+}
+.accentColor-46.theme-dark button.accentButton:hover, .accentColor-46.theme-dark button.accentButton:focus {
+  background-color: #0b5b29;
+  border-color: #0b5b29;
+}
+.accentColor-47.theme-dark button.accentButton:hover, .accentColor-47.theme-dark button.accentButton:focus {
+  background-color: #0a4f0a;
+  border-color: #0a4f0a;
+}
+.accentColor-48.theme-dark button.accentButton:hover, .accentColor-48.theme-dark button.accentButton:focus {
+  background-color: #615849;
+  border-color: #615849;
 }
 button.accentButton:disabled {
   background: #CCCCCC;
@@ -419,6 +851,150 @@ input[type=checkbox].checkbox:empty ~ label:before {
   background-color: #4C4A48;
   border-color: #4C4A48;
 }
+.accentColor-13 input[type=checkbox].checkbox:checked {
+  background-color: #F7630C;
+  border-color: #F7630C;
+}
+.accentColor-14 input[type=checkbox].checkbox:checked {
+  background-color: #EA005E;
+  border-color: #EA005E;
+}
+.accentColor-15 input[type=checkbox].checkbox:checked {
+  background-color: #8E8CD8;
+  border-color: #8E8CD8;
+}
+.accentColor-16 input[type=checkbox].checkbox:checked {
+  background-color: #00B7C3;
+  border-color: #00B7C3;
+}
+.accentColor-17 input[type=checkbox].checkbox:checked {
+  background-color: #68768A;
+  border-color: #68768A;
+}
+.accentColor-18 input[type=checkbox].checkbox:checked {
+  background-color: #69797E;
+  border-color: #69797E;
+}
+.accentColor-19 input[type=checkbox].checkbox:checked {
+  background-color: #CA5010;
+  border-color: #CA5010;
+}
+.accentColor-20 input[type=checkbox].checkbox:checked {
+  background-color: #C30052;
+  border-color: #C30052;
+}
+.accentColor-21 input[type=checkbox].checkbox:checked {
+  background-color: #6B69D6;
+  border-color: #6B69D6;
+}
+.accentColor-22 input[type=checkbox].checkbox:checked {
+  background-color: #038387;
+  border-color: #038387;
+}
+.accentColor-23 input[type=checkbox].checkbox:checked {
+  background-color: #515C6B;
+  border-color: #515C6B;
+}
+.accentColor-24 input[type=checkbox].checkbox:checked {
+  background-color: #4A5459;
+  border-color: #4A5459;
+}
+.accentColor-25 input[type=checkbox].checkbox:checked {
+  background-color: #DA3B01;
+  border-color: #DA3B01;
+}
+.accentColor-26 input[type=checkbox].checkbox:checked {
+  background-color: #E3008C;
+  border-color: #E3008C;
+}
+.accentColor-27 input[type=checkbox].checkbox:checked {
+  background-color: #8764B8;
+  border-color: #8764B8;
+}
+.accentColor-28 input[type=checkbox].checkbox:checked {
+  background-color: #00B294;
+  border-color: #00B294;
+}
+.accentColor-29 input[type=checkbox].checkbox:checked {
+  background-color: #567C73;
+  border-color: #567C73;
+}
+.accentColor-30 input[type=checkbox].checkbox:checked {
+  background-color: #647C64;
+  border-color: #647C64;
+}
+.accentColor-31 input[type=checkbox].checkbox:checked {
+  background-color: #EF6950;
+  border-color: #EF6950;
+}
+.accentColor-32 input[type=checkbox].checkbox:checked {
+  background-color: #BF0077;
+  border-color: #BF0077;
+}
+.accentColor-33 input[type=checkbox].checkbox:checked {
+  background-color: #744DA9;
+  border-color: #744DA9;
+}
+.accentColor-34 input[type=checkbox].checkbox:checked {
+  background-color: #018574;
+  border-color: #018574;
+}
+.accentColor-35 input[type=checkbox].checkbox:checked {
+  background-color: #486860;
+  border-color: #486860;
+}
+.accentColor-36 input[type=checkbox].checkbox:checked {
+  background-color: #525E54;
+  border-color: #525E54;
+}
+.accentColor-37 input[type=checkbox].checkbox:checked {
+  background-color: #D13438;
+  border-color: #D13438;
+}
+.accentColor-38 input[type=checkbox].checkbox:checked {
+  background-color: #C239B3;
+  border-color: #C239B3;
+}
+.accentColor-39 input[type=checkbox].checkbox:checked {
+  background-color: #B146C2;
+  border-color: #B146C2;
+}
+.accentColor-40 input[type=checkbox].checkbox:checked {
+  background-color: #00CC6A;
+  border-color: #00CC6A;
+}
+.accentColor-41 input[type=checkbox].checkbox:checked {
+  background-color: #498205;
+  border-color: #498205;
+}
+.accentColor-42 input[type=checkbox].checkbox:checked {
+  background-color: #847545;
+  border-color: #847545;
+}
+.accentColor-43 input[type=checkbox].checkbox:checked {
+  background-color: #FF4343;
+  border-color: #FF4343;
+}
+.accentColor-44 input[type=checkbox].checkbox:checked {
+  background-color: #9A0089;
+  border-color: #9A0089;
+}
+.accentColor-45 input[type=checkbox].checkbox:checked {
+  background-color: #881798;
+  border-color: #881798;
+}
+.accentColor-46 input[type=checkbox].checkbox:checked {
+  background-color: #10893E;
+  border-color: #10893E;
+}
+.accentColor-47 input[type=checkbox].checkbox:checked {
+  background-color: #107C10;
+  border-color: #107C10;
+}
+.accentColor-48 input[type=checkbox].checkbox:checked {
+  background-color: #7E735F;
+  border-color: #7E735F;
+}
 input[type=checkbox].checkbox:checked ~ label:before {
   color: #FFF;
   content: '\e73e';
@@ -476,6 +1052,150 @@ input[type=checkbox].checkbox:checked ~ label:before {
 .accentColor-12 input[type=checkbox].checkbox:checked:hover, .accentColor-12 input[type=checkbox].checkbox:checked:focus {
   background-color: #666461;
   border-color: #666461;
+}
+.accentColor-13 input[type=checkbox].checkbox:checked:hover, .accentColor-13 input[type=checkbox].checkbox:checked:focus {
+  background-color: #f9833d;
+  border-color: #f9833d;
+}
+.accentColor-14 input[type=checkbox].checkbox:checked:hover, .accentColor-14 input[type=checkbox].checkbox:checked:focus {
+  background-color: #ff1e78;
+  border-color: #ff1e78;
+}
+.accentColor-15 input[type=checkbox].checkbox:checked:hover, .accentColor-15 input[type=checkbox].checkbox:checked:focus {
+  background-color: #b3b2e5;
+  border-color: #b3b2e5;
+}
+.accentColor-16 input[type=checkbox].checkbox:checked:hover, .accentColor-16 input[type=checkbox].checkbox:checked:focus {
+  background-color: #00e7f6;
+  border-color: #00e7f6;
+}
+.accentColor-17 input[type=checkbox].checkbox:checked:hover, .accentColor-17 input[type=checkbox].checkbox:checked:focus {
+  background-color: #8390a2;
+  border-color: #8390a2;
+}
+.accentColor-18 input[type=checkbox].checkbox:checked:hover, .accentColor-18 input[type=checkbox].checkbox:checked:focus {
+  background-color: #839297;
+  border-color: #839297;
+}
+.accentColor-19 input[type=checkbox].checkbox:checked:hover, .accentColor-19 input[type=checkbox].checkbox:checked:focus {
+  background-color: #ed6620;
+  border-color: #ed6620;
+}
+.accentColor-20 input[type=checkbox].checkbox:checked:hover, .accentColor-20 input[type=checkbox].checkbox:checked:focus {
+  background-color: #f60067;
+  border-color: #f60067;
+}
+.accentColor-21 input[type=checkbox].checkbox:checked:hover, .accentColor-21 input[type=checkbox].checkbox:checked:focus {
+  background-color: #9391e1;
+  border-color: #9391e1;
+}
+.accentColor-22 input[type=checkbox].checkbox:checked:hover, .accentColor-22 input[type=checkbox].checkbox:checked:focus {
+  background-color: #04b3b9;
+  border-color: #04b3b9;
+}
+.accentColor-23 input[type=checkbox].checkbox:checked:hover, .accentColor-23 input[type=checkbox].checkbox:checked:focus {
+  background-color: #677588;
+  border-color: #677588;
+}
+.accentColor-24 input[type=checkbox].checkbox:checked:hover, .accentColor-24 input[type=checkbox].checkbox:checked:focus {
+  background-color: #616e75;
+  border-color: #616e75;
+}
+.accentColor-25 input[type=checkbox].checkbox:checked:hover, .accentColor-25 input[type=checkbox].checkbox:checked:focus {
+  background-color: #fe5010;
+  border-color: #fe5010;
+}
+.accentColor-26 input[type=checkbox].checkbox:checked:hover, .accentColor-26 input[type=checkbox].checkbox:checked:focus {
+  background-color: #ff17a6;
+  border-color: #ff17a6;
+}
+.accentColor-27 input[type=checkbox].checkbox:checked:hover, .accentColor-27 input[type=checkbox].checkbox:checked:focus {
+  background-color: #a287c8;
+  border-color: #a287c8;
+}
+.accentColor-28 input[type=checkbox].checkbox:checked:hover, .accentColor-28 input[type=checkbox].checkbox:checked:focus {
+  background-color: #00e5be;
+  border-color: #00e5be;
+}
+.accentColor-29 input[type=checkbox].checkbox:checked:hover, .accentColor-29 input[type=checkbox].checkbox:checked:focus {
+  background-color: #6c998e;
+  border-color: #6c998e;
+}
+.accentColor-30 input[type=checkbox].checkbox:checked:hover, .accentColor-30 input[type=checkbox].checkbox:checked:focus {
+  background-color: #7d967d;
+  border-color: #7d967d;
+}
+.accentColor-31 input[type=checkbox].checkbox:checked:hover, .accentColor-31 input[type=checkbox].checkbox:checked:focus {
+  background-color: #f3917f;
+  border-color: #f3917f;
+}
+.accentColor-32 input[type=checkbox].checkbox:checked:hover, .accentColor-32 input[type=checkbox].checkbox:checked:focus {
+  background-color: #f20097;
+  border-color: #f20097;
+}
+.accentColor-33 input[type=checkbox].checkbox:checked:hover, .accentColor-33 input[type=checkbox].checkbox:checked:focus {
+  background-color: #8e6dbc;
+  border-color: #8e6dbc;
+}
+.accentColor-34 input[type=checkbox].checkbox:checked:hover, .accentColor-34 input[type=checkbox].checkbox:checked:focus {
+  background-color: #01b8a0;
+  border-color: #01b8a0;
+}
+.accentColor-35 input[type=checkbox].checkbox:checked:hover, .accentColor-35 input[type=checkbox].checkbox:checked:focus {
+  background-color: #5d867c;
+  border-color: #5d867c;
+}
+.accentColor-36 input[type=checkbox].checkbox:checked:hover, .accentColor-36 input[type=checkbox].checkbox:checked:focus {
+  background-color: #6a796c;
+  border-color: #6a796c;
+}
+.accentColor-37 input[type=checkbox].checkbox:checked:hover, .accentColor-37 input[type=checkbox].checkbox:checked:focus {
+  background-color: #da5e61;
+  border-color: #da5e61;
+}
+.accentColor-38 input[type=checkbox].checkbox:checked:hover, .accentColor-38 input[type=checkbox].checkbox:checked:focus {
+  background-color: #d05ec3;
+  border-color: #d05ec3;
+}
+.accentColor-39 input[type=checkbox].checkbox:checked:hover, .accentColor-39 input[type=checkbox].checkbox:checked:focus {
+  background-color: #c16ccf;
+  border-color: #c16ccf;
+}
+.accentColor-40 input[type=checkbox].checkbox:checked:hover, .accentColor-40 input[type=checkbox].checkbox:checked:focus {
+  background-color: #00ff85;
+  border-color: #00ff85;
+}
+.accentColor-41 input[type=checkbox].checkbox:checked:hover, .accentColor-41 input[type=checkbox].checkbox:checked:focus {
+  background-color: #65b307;
+  border-color: #65b307;
+}
+.accentColor-42 input[type=checkbox].checkbox:checked:hover, .accentColor-42 input[type=checkbox].checkbox:checked:focus {
+  background-color: #a59357;
+  border-color: #a59357;
+}
+.accentColor-43 input[type=checkbox].checkbox:checked:hover, .accentColor-43 input[type=checkbox].checkbox:checked:focus {
+  background-color: #ff7676;
+  border-color: #ff7676;
+}
+.accentColor-44 input[type=checkbox].checkbox:checked:hover, .accentColor-44 input[type=checkbox].checkbox:checked:focus {
+  background-color: #cd00b6;
+  border-color: #cd00b6;
+}
+.accentColor-45 input[type=checkbox].checkbox:checked:hover, .accentColor-45 input[type=checkbox].checkbox:checked:focus {
+  background-color: #b01ec4;
+  border-color: #b01ec4;
+}
+.accentColor-46 input[type=checkbox].checkbox:checked:hover, .accentColor-46 input[type=checkbox].checkbox:checked:focus {
+  background-color: #15b753;
+  border-color: #15b753;
+}
+.accentColor-47 input[type=checkbox].checkbox:checked:hover, .accentColor-47 input[type=checkbox].checkbox:checked:focus {
+  background-color: #16a916;
+  border-color: #16a916;
+}
+.accentColor-48 input[type=checkbox].checkbox:checked:hover, .accentColor-48 input[type=checkbox].checkbox:checked:focus {
+  background-color: #998d77;
+  border-color: #998d77;
 }
 input[type=checkbox].toggleSwitch {
   border: none;
@@ -574,6 +1294,150 @@ input[type=checkbox].toggleSwitch:empty ~ label:after {
   background-color: #4C4A48;
   border-color: #4C4A48;
 }
+.accentColor-13 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #F7630C;
+  border-color: #F7630C;
+}
+.accentColor-14 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #EA005E;
+  border-color: #EA005E;
+}
+.accentColor-15 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #8E8CD8;
+  border-color: #8E8CD8;
+}
+.accentColor-16 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #00B7C3;
+  border-color: #00B7C3;
+}
+.accentColor-17 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #68768A;
+  border-color: #68768A;
+}
+.accentColor-18 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #69797E;
+  border-color: #69797E;
+}
+.accentColor-19 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #CA5010;
+  border-color: #CA5010;
+}
+.accentColor-20 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #C30052;
+  border-color: #C30052;
+}
+.accentColor-21 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #6B69D6;
+  border-color: #6B69D6;
+}
+.accentColor-22 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #038387;
+  border-color: #038387;
+}
+.accentColor-23 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #515C6B;
+  border-color: #515C6B;
+}
+.accentColor-24 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #4A5459;
+  border-color: #4A5459;
+}
+.accentColor-25 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #DA3B01;
+  border-color: #DA3B01;
+}
+.accentColor-26 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #E3008C;
+  border-color: #E3008C;
+}
+.accentColor-27 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #8764B8;
+  border-color: #8764B8;
+}
+.accentColor-28 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #00B294;
+  border-color: #00B294;
+}
+.accentColor-29 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #567C73;
+  border-color: #567C73;
+}
+.accentColor-30 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #647C64;
+  border-color: #647C64;
+}
+.accentColor-31 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #EF6950;
+  border-color: #EF6950;
+}
+.accentColor-32 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #BF0077;
+  border-color: #BF0077;
+}
+.accentColor-33 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #744DA9;
+  border-color: #744DA9;
+}
+.accentColor-34 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #018574;
+  border-color: #018574;
+}
+.accentColor-35 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #486860;
+  border-color: #486860;
+}
+.accentColor-36 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #525E54;
+  border-color: #525E54;
+}
+.accentColor-37 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #D13438;
+  border-color: #D13438;
+}
+.accentColor-38 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #C239B3;
+  border-color: #C239B3;
+}
+.accentColor-39 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #B146C2;
+  border-color: #B146C2;
+}
+.accentColor-40 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #00CC6A;
+  border-color: #00CC6A;
+}
+.accentColor-41 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #498205;
+  border-color: #498205;
+}
+.accentColor-42 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #847545;
+  border-color: #847545;
+}
+.accentColor-43 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #FF4343;
+  border-color: #FF4343;
+}
+.accentColor-44 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #9A0089;
+  border-color: #9A0089;
+}
+.accentColor-45 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #881798;
+  border-color: #881798;
+}
+.accentColor-46 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #10893E;
+  border-color: #10893E;
+}
+.accentColor-47 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #107C10;
+  border-color: #107C10;
+}
+.accentColor-48 input[type=checkbox].toggleSwitch:checked ~ label:before {
+  background-color: #7E735F;
+  border-color: #7E735F;
+}
 input[type=checkbox].toggleSwitch:checked ~ label:after {
   background-color: #FFFFFF;
   margin-left: 1.95em;
@@ -626,6 +1490,150 @@ input[type=checkbox].toggleSwitch:checked ~ label:after {
   background-color: #666461;
   border-color: #666461;
 }
+.accentColor-13 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #f9833d;
+  border-color: #f9833d;
+}
+.accentColor-14 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #ff1e78;
+  border-color: #ff1e78;
+}
+.accentColor-15 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #b3b2e5;
+  border-color: #b3b2e5;
+}
+.accentColor-16 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #00e7f6;
+  border-color: #00e7f6;
+}
+.accentColor-17 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #8390a2;
+  border-color: #8390a2;
+}
+.accentColor-18 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #839297;
+  border-color: #839297;
+}
+.accentColor-19 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #ed6620;
+  border-color: #ed6620;
+}
+.accentColor-20 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #f60067;
+  border-color: #f60067;
+}
+.accentColor-21 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #9391e1;
+  border-color: #9391e1;
+}
+.accentColor-22 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #04b3b9;
+  border-color: #04b3b9;
+}
+.accentColor-23 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #677588;
+  border-color: #677588;
+}
+.accentColor-24 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #616e75;
+  border-color: #616e75;
+}
+.accentColor-25 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #fe5010;
+  border-color: #fe5010;
+}
+.accentColor-26 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #ff17a6;
+  border-color: #ff17a6;
+}
+.accentColor-27 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #a287c8;
+  border-color: #a287c8;
+}
+.accentColor-28 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #00e5be;
+  border-color: #00e5be;
+}
+.accentColor-29 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #6c998e;
+  border-color: #6c998e;
+}
+.accentColor-30 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #7d967d;
+  border-color: #7d967d;
+}
+.accentColor-31 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #f3917f;
+  border-color: #f3917f;
+}
+.accentColor-32 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #f20097;
+  border-color: #f20097;
+}
+.accentColor-33 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #8e6dbc;
+  border-color: #8e6dbc;
+}
+.accentColor-34 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #01b8a0;
+  border-color: #01b8a0;
+}
+.accentColor-35 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #5d867c;
+  border-color: #5d867c;
+}
+.accentColor-36 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #6a796c;
+  border-color: #6a796c;
+}
+.accentColor-37 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #da5e61;
+  border-color: #da5e61;
+}
+.accentColor-38 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #d05ec3;
+  border-color: #d05ec3;
+}
+.accentColor-39 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #c16ccf;
+  border-color: #c16ccf;
+}
+.accentColor-40 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #00ff85;
+  border-color: #00ff85;
+}
+.accentColor-41 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #65b307;
+  border-color: #65b307;
+}
+.accentColor-42 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #a59357;
+  border-color: #a59357;
+}
+.accentColor-43 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #ff7676;
+  border-color: #ff7676;
+}
+.accentColor-44 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #cd00b6;
+  border-color: #cd00b6;
+}
+.accentColor-45 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #b01ec4;
+  border-color: #b01ec4;
+}
+.accentColor-46 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #15b753;
+  border-color: #15b753;
+}
+.accentColor-47 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #16a916;
+  border-color: #16a916;
+}
+.accentColor-48 input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #998d77;
+  border-color: #998d77;
+}
 .accentColor-1.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
   background-color: #cc9400;
   border-color: #cc9400;
@@ -673,6 +1681,150 @@ input[type=checkbox].toggleSwitch:checked ~ label:after {
 .accentColor-12.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
   background-color: #32312f;
   border-color: #32312f;
+}
+.accentColor-13.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #c94f07;
+  border-color: #c94f07;
+}
+.accentColor-14.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #b7004a;
+  border-color: #b7004a;
+}
+.accentColor-15.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #6966cb;
+  border-color: #6966cb;
+}
+.accentColor-16.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #008790;
+  border-color: #008790;
+}
+.accentColor-17.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #525d6d;
+  border-color: #525d6d;
+}
+.accentColor-18.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #525e62;
+  border-color: #525e62;
+}
+.accentColor-19.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #9b3d0c;
+  border-color: #9b3d0c;
+}
+.accentColor-20.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #90003d;
+  border-color: #90003d;
+}
+.accentColor-21.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #4341cb;
+  border-color: #4341cb;
+}
+.accentColor-22.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #025355;
+  border-color: #025355;
+}
+.accentColor-23.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #3b434e;
+  border-color: #3b434e;
+}
+.accentColor-24.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #333a3d;
+  border-color: #333a3d;
+}
+.accentColor-25.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #a72d01;
+  border-color: #a72d01;
+}
+.accentColor-26.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #b0006d;
+  border-color: #b0006d;
+}
+.accentColor-27.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #6d49a0;
+  border-color: #6d49a0;
+}
+.accentColor-28.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #007f6a;
+  border-color: #007f6a;
+}
+.accentColor-29.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #415e57;
+  border-color: #415e57;
+}
+.accentColor-30.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #4d604d;
+  border-color: #4d604d;
+}
+.accentColor-31.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #eb4121;
+  border-color: #eb4121;
+}
+.accentColor-32.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #8c0057;
+  border-color: #8c0057;
+}
+.accentColor-33.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #5c3d86;
+  border-color: #5c3d86;
+}
+.accentColor-34.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #015248;
+  border-color: #015248;
+}
+.accentColor-35.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #334a44;
+  border-color: #334a44;
+}
+.accentColor-36.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #3a433c;
+  border-color: #3a433c;
+}
+.accentColor-37.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #ab272a;
+  border-color: #ab272a;
+}
+.accentColor-38.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #9b2d8f;
+  border-color: #9b2d8f;
+}
+.accentColor-39.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #9135a0;
+  border-color: #9135a0;
+}
+.accentColor-40.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #009950;
+  border-color: #009950;
+}
+.accentColor-41.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #2d5103;
+  border-color: #2d5103;
+}
+.accentColor-42.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #635733;
+  border-color: #635733;
+}
+.accentColor-43.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #ff1010;
+  border-color: #ff1010;
+}
+.accentColor-44.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #67005c;
+  border-color: #67005c;
+}
+.accentColor-45.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #60106c;
+  border-color: #60106c;
+}
+.accentColor-46.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #0b5b29;
+  border-color: #0b5b29;
+}
+.accentColor-47.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #0a4f0a;
+  border-color: #0a4f0a;
+}
+.accentColor-48.theme-dark input[type=checkbox].toggleSwitch:checked ~ label:hover:before {
+  background-color: #615849;
+  border-color: #615849;
 }
 
 input[type=text] {
@@ -728,6 +1880,114 @@ input[type=text]:focus {
 .accentColor-12 input[type=text]:focus {
   border-color: #4C4A48;
 }
+.accentColor-13 input[type=text]:focus {
+  border-color: #F7630C;
+}
+.accentColor-14 input[type=text]:focus {
+  border-color: #EA005E;
+}
+.accentColor-15 input[type=text]:focus {
+  border-color: #8E8CD8;
+}
+.accentColor-16 input[type=text]:focus {
+  border-color: #00B7C3;
+}
+.accentColor-17 input[type=text]:focus {
+  border-color: #68768A;
+}
+.accentColor-18 input[type=text]:focus {
+  border-color: #69797E;
+}
+.accentColor-19 input[type=text]:focus {
+  border-color: #CA5010;
+}
+.accentColor-20 input[type=text]:focus {
+  border-color: #C30052;
+}
+.accentColor-21 input[type=text]:focus {
+  border-color: #6B69D6;
+}
+.accentColor-22 input[type=text]:focus {
+  border-color: #038387;
+}
+.accentColor-23 input[type=text]:focus {
+  border-color: #515C6B;
+}
+.accentColor-24 input[type=text]:focus {
+  border-color: #4A5459;
+}
+.accentColor-25 input[type=text]:focus {
+  border-color: #DA3B01;
+}
+.accentColor-26 input[type=text]:focus {
+  border-color: #E3008C;
+}
+.accentColor-27 input[type=text]:focus {
+  border-color: #8764B8;
+}
+.accentColor-28 input[type=text]:focus {
+  border-color: #00B294;
+}
+.accentColor-29 input[type=text]:focus {
+  border-color: #567C73;
+}
+.accentColor-30 input[type=text]:focus {
+  border-color: #647C64;
+}
+.accentColor-31 input[type=text]:focus {
+  border-color: #EF6950;
+}
+.accentColor-32 input[type=text]:focus {
+  border-color: #BF0077;
+}
+.accentColor-33 input[type=text]:focus {
+  border-color: #744DA9;
+}
+.accentColor-34 input[type=text]:focus {
+  border-color: #018574;
+}
+.accentColor-35 input[type=text]:focus {
+  border-color: #486860;
+}
+.accentColor-36 input[type=text]:focus {
+  border-color: #525E54;
+}
+.accentColor-37 input[type=text]:focus {
+  border-color: #D13438;
+}
+.accentColor-38 input[type=text]:focus {
+  border-color: #C239B3;
+}
+.accentColor-39 input[type=text]:focus {
+  border-color: #B146C2;
+}
+.accentColor-40 input[type=text]:focus {
+  border-color: #00CC6A;
+}
+.accentColor-41 input[type=text]:focus {
+  border-color: #498205;
+}
+.accentColor-42 input[type=text]:focus {
+  border-color: #847545;
+}
+.accentColor-43 input[type=text]:focus {
+  border-color: #FF4343;
+}
+.accentColor-44 input[type=text]:focus {
+  border-color: #9A0089;
+}
+.accentColor-45 input[type=text]:focus {
+  border-color: #881798;
+}
+.accentColor-46 input[type=text]:focus {
+  border-color: #10893E;
+}
+.accentColor-47 input[type=text]:focus {
+  border-color: #107C10;
+}
+.accentColor-48 input[type=text]:focus {
+  border-color: #7E735F;
+}
 
 select {
   background: transparent;
@@ -782,6 +2042,114 @@ select:focus {
 }
 .accentColor-12 select:focus {
   border-color: #4C4A48;
+}
+.accentColor-13 select:focus {
+  border-color: #F7630C;
+}
+.accentColor-14 select:focus {
+  border-color: #EA005E;
+}
+.accentColor-15 select:focus {
+  border-color: #8E8CD8;
+}
+.accentColor-16 select:focus {
+  border-color: #00B7C3;
+}
+.accentColor-17 select:focus {
+  border-color: #68768A;
+}
+.accentColor-18 select:focus {
+  border-color: #69797E;
+}
+.accentColor-19 select:focus {
+  border-color: #CA5010;
+}
+.accentColor-20 select:focus {
+  border-color: #C30052;
+}
+.accentColor-21 select:focus {
+  border-color: #6B69D6;
+}
+.accentColor-22 select:focus {
+  border-color: #038387;
+}
+.accentColor-23 select:focus {
+  border-color: #515C6B;
+}
+.accentColor-24 select:focus {
+  border-color: #4A5459;
+}
+.accentColor-25 select:focus {
+  border-color: #DA3B01;
+}
+.accentColor-26 select:focus {
+  border-color: #E3008C;
+}
+.accentColor-27 select:focus {
+  border-color: #8764B8;
+}
+.accentColor-28 select:focus {
+  border-color: #00B294;
+}
+.accentColor-29 select:focus {
+  border-color: #567C73;
+}
+.accentColor-30 select:focus {
+  border-color: #647C64;
+}
+.accentColor-31 select:focus {
+  border-color: #EF6950;
+}
+.accentColor-32 select:focus {
+  border-color: #BF0077;
+}
+.accentColor-33 select:focus {
+  border-color: #744DA9;
+}
+.accentColor-34 select:focus {
+  border-color: #018574;
+}
+.accentColor-35 select:focus {
+  border-color: #486860;
+}
+.accentColor-36 select:focus {
+  border-color: #525E54;
+}
+.accentColor-37 select:focus {
+  border-color: #D13438;
+}
+.accentColor-38 select:focus {
+  border-color: #C239B3;
+}
+.accentColor-39 select:focus {
+  border-color: #B146C2;
+}
+.accentColor-40 select:focus {
+  border-color: #00CC6A;
+}
+.accentColor-41 select:focus {
+  border-color: #498205;
+}
+.accentColor-42 select:focus {
+  border-color: #847545;
+}
+.accentColor-43 select:focus {
+  border-color: #FF4343;
+}
+.accentColor-44 select:focus {
+  border-color: #9A0089;
+}
+.accentColor-45 select:focus {
+  border-color: #881798;
+}
+.accentColor-46 select:focus {
+  border-color: #10893E;
+}
+.accentColor-47 select:focus {
+  border-color: #107C10;
+}
+.accentColor-48 select:focus {
+  border-color: #7E735F;
 }
 
 section {
@@ -922,6 +2290,114 @@ a {
 .accentColor-12 a {
   color: #4C4A48;
 }
+.accentColor-13 a {
+  color: #F7630C;
+}
+.accentColor-14 a {
+  color: #EA005E;
+}
+.accentColor-15 a {
+  color: #8E8CD8;
+}
+.accentColor-16 a {
+  color: #00B7C3;
+}
+.accentColor-17 a {
+  color: #68768A;
+}
+.accentColor-18 a {
+  color: #69797E;
+}
+.accentColor-19 a {
+  color: #CA5010;
+}
+.accentColor-20 a {
+  color: #C30052;
+}
+.accentColor-21 a {
+  color: #6B69D6;
+}
+.accentColor-22 a {
+  color: #038387;
+}
+.accentColor-23 a {
+  color: #515C6B;
+}
+.accentColor-24 a {
+  color: #4A5459;
+}
+.accentColor-25 a {
+  color: #DA3B01;
+}
+.accentColor-26 a {
+  color: #E3008C;
+}
+.accentColor-27 a {
+  color: #8764B8;
+}
+.accentColor-28 a {
+  color: #00B294;
+}
+.accentColor-29 a {
+  color: #567C73;
+}
+.accentColor-30 a {
+  color: #647C64;
+}
+.accentColor-31 a {
+  color: #EF6950;
+}
+.accentColor-32 a {
+  color: #BF0077;
+}
+.accentColor-33 a {
+  color: #744DA9;
+}
+.accentColor-34 a {
+  color: #018574;
+}
+.accentColor-35 a {
+  color: #486860;
+}
+.accentColor-36 a {
+  color: #525E54;
+}
+.accentColor-37 a {
+  color: #D13438;
+}
+.accentColor-38 a {
+  color: #C239B3;
+}
+.accentColor-39 a {
+  color: #B146C2;
+}
+.accentColor-40 a {
+  color: #00CC6A;
+}
+.accentColor-41 a {
+  color: #498205;
+}
+.accentColor-42 a {
+  color: #847545;
+}
+.accentColor-43 a {
+  color: #FF4343;
+}
+.accentColor-44 a {
+  color: #9A0089;
+}
+.accentColor-45 a {
+  color: #881798;
+}
+.accentColor-46 a {
+  color: #10893E;
+}
+.accentColor-47 a {
+  color: #107C10;
+}
+.accentColor-48 a {
+  color: #7E735F;
+}
 a:hover, a:focus {
   color: #666666;
 }
@@ -1027,6 +2503,222 @@ a:active {
 .accentColor-12 .sidebar ul li.active:hover {
   background-color: rgba(76, 74, 72, 0.5);
 }
+.accentColor-13 .sidebar ul li.active {
+  background-color: rgba(247, 99, 12, 0.3);
+}
+.accentColor-13 .sidebar ul li.active:hover {
+  background-color: rgba(247, 99, 12, 0.5);
+}
+.accentColor-14 .sidebar ul li.active {
+  background-color: rgba(234, 0, 94, 0.3);
+}
+.accentColor-14 .sidebar ul li.active:hover {
+  background-color: rgba(234, 0, 94, 0.5);
+}
+.accentColor-15 .sidebar ul li.active {
+  background-color: rgba(142, 140, 216, 0.3);
+}
+.accentColor-15 .sidebar ul li.active:hover {
+  background-color: rgba(142, 140, 216, 0.5);
+}
+.accentColor-16 .sidebar ul li.active {
+  background-color: rgba(0, 183, 195, 0.3);
+}
+.accentColor-16 .sidebar ul li.active:hover {
+  background-color: rgba(0, 183, 195, 0.5);
+}
+.accentColor-17 .sidebar ul li.active {
+  background-color: rgba(104, 118, 138, 0.3);
+}
+.accentColor-17 .sidebar ul li.active:hover {
+  background-color: rgba(104, 118, 138, 0.5);
+}
+.accentColor-18 .sidebar ul li.active {
+  background-color: rgba(105, 121, 126, 0.3);
+}
+.accentColor-18 .sidebar ul li.active:hover {
+  background-color: rgba(105, 121, 126, 0.5);
+}
+.accentColor-19 .sidebar ul li.active {
+  background-color: rgba(202, 80, 16, 0.3);
+}
+.accentColor-19 .sidebar ul li.active:hover {
+  background-color: rgba(202, 80, 16, 0.5);
+}
+.accentColor-20 .sidebar ul li.active {
+  background-color: rgba(195, 0, 82, 0.3);
+}
+.accentColor-20 .sidebar ul li.active:hover {
+  background-color: rgba(195, 0, 82, 0.5);
+}
+.accentColor-21 .sidebar ul li.active {
+  background-color: rgba(107, 105, 214, 0.3);
+}
+.accentColor-21 .sidebar ul li.active:hover {
+  background-color: rgba(107, 105, 214, 0.5);
+}
+.accentColor-22 .sidebar ul li.active {
+  background-color: rgba(3, 131, 135, 0.3);
+}
+.accentColor-22 .sidebar ul li.active:hover {
+  background-color: rgba(3, 131, 135, 0.5);
+}
+.accentColor-23 .sidebar ul li.active {
+  background-color: rgba(81, 92, 107, 0.3);
+}
+.accentColor-23 .sidebar ul li.active:hover {
+  background-color: rgba(81, 92, 107, 0.5);
+}
+.accentColor-24 .sidebar ul li.active {
+  background-color: rgba(74, 84, 89, 0.3);
+}
+.accentColor-24 .sidebar ul li.active:hover {
+  background-color: rgba(74, 84, 89, 0.5);
+}
+.accentColor-25 .sidebar ul li.active {
+  background-color: rgba(218, 59, 1, 0.3);
+}
+.accentColor-25 .sidebar ul li.active:hover {
+  background-color: rgba(218, 59, 1, 0.5);
+}
+.accentColor-26 .sidebar ul li.active {
+  background-color: rgba(227, 0, 140, 0.3);
+}
+.accentColor-26 .sidebar ul li.active:hover {
+  background-color: rgba(227, 0, 140, 0.5);
+}
+.accentColor-27 .sidebar ul li.active {
+  background-color: rgba(135, 100, 184, 0.3);
+}
+.accentColor-27 .sidebar ul li.active:hover {
+  background-color: rgba(135, 100, 184, 0.5);
+}
+.accentColor-28 .sidebar ul li.active {
+  background-color: rgba(0, 178, 148, 0.3);
+}
+.accentColor-28 .sidebar ul li.active:hover {
+  background-color: rgba(0, 178, 148, 0.5);
+}
+.accentColor-29 .sidebar ul li.active {
+  background-color: rgba(86, 124, 115, 0.3);
+}
+.accentColor-29 .sidebar ul li.active:hover {
+  background-color: rgba(86, 124, 115, 0.5);
+}
+.accentColor-30 .sidebar ul li.active {
+  background-color: rgba(100, 124, 100, 0.3);
+}
+.accentColor-30 .sidebar ul li.active:hover {
+  background-color: rgba(100, 124, 100, 0.5);
+}
+.accentColor-31 .sidebar ul li.active {
+  background-color: rgba(239, 105, 80, 0.3);
+}
+.accentColor-31 .sidebar ul li.active:hover {
+  background-color: rgba(239, 105, 80, 0.5);
+}
+.accentColor-32 .sidebar ul li.active {
+  background-color: rgba(191, 0, 119, 0.3);
+}
+.accentColor-32 .sidebar ul li.active:hover {
+  background-color: rgba(191, 0, 119, 0.5);
+}
+.accentColor-33 .sidebar ul li.active {
+  background-color: rgba(116, 77, 169, 0.3);
+}
+.accentColor-33 .sidebar ul li.active:hover {
+  background-color: rgba(116, 77, 169, 0.5);
+}
+.accentColor-34 .sidebar ul li.active {
+  background-color: rgba(1, 133, 116, 0.3);
+}
+.accentColor-34 .sidebar ul li.active:hover {
+  background-color: rgba(1, 133, 116, 0.5);
+}
+.accentColor-35 .sidebar ul li.active {
+  background-color: rgba(72, 104, 96, 0.3);
+}
+.accentColor-35 .sidebar ul li.active:hover {
+  background-color: rgba(72, 104, 96, 0.5);
+}
+.accentColor-36 .sidebar ul li.active {
+  background-color: rgba(82, 94, 84, 0.3);
+}
+.accentColor-36 .sidebar ul li.active:hover {
+  background-color: rgba(82, 94, 84, 0.5);
+}
+.accentColor-37 .sidebar ul li.active {
+  background-color: rgba(209, 52, 56, 0.3);
+}
+.accentColor-37 .sidebar ul li.active:hover {
+  background-color: rgba(209, 52, 56, 0.5);
+}
+.accentColor-38 .sidebar ul li.active {
+  background-color: rgba(194, 57, 179, 0.3);
+}
+.accentColor-38 .sidebar ul li.active:hover {
+  background-color: rgba(194, 57, 179, 0.5);
+}
+.accentColor-39 .sidebar ul li.active {
+  background-color: rgba(177, 70, 194, 0.3);
+}
+.accentColor-39 .sidebar ul li.active:hover {
+  background-color: rgba(177, 70, 194, 0.5);
+}
+.accentColor-40 .sidebar ul li.active {
+  background-color: rgba(0, 204, 106, 0.3);
+}
+.accentColor-40 .sidebar ul li.active:hover {
+  background-color: rgba(0, 204, 106, 0.5);
+}
+.accentColor-41 .sidebar ul li.active {
+  background-color: rgba(73, 130, 5, 0.3);
+}
+.accentColor-41 .sidebar ul li.active:hover {
+  background-color: rgba(73, 130, 5, 0.5);
+}
+.accentColor-42 .sidebar ul li.active {
+  background-color: rgba(132, 117, 69, 0.3);
+}
+.accentColor-42 .sidebar ul li.active:hover {
+  background-color: rgba(132, 117, 69, 0.5);
+}
+.accentColor-43 .sidebar ul li.active {
+  background-color: rgba(255, 67, 67, 0.3);
+}
+.accentColor-43 .sidebar ul li.active:hover {
+  background-color: rgba(255, 67, 67, 0.5);
+}
+.accentColor-44 .sidebar ul li.active {
+  background-color: rgba(154, 0, 137, 0.3);
+}
+.accentColor-44 .sidebar ul li.active:hover {
+  background-color: rgba(154, 0, 137, 0.5);
+}
+.accentColor-45 .sidebar ul li.active {
+  background-color: rgba(136, 23, 152, 0.3);
+}
+.accentColor-45 .sidebar ul li.active:hover {
+  background-color: rgba(136, 23, 152, 0.5);
+}
+.accentColor-46 .sidebar ul li.active {
+  background-color: rgba(16, 137, 62, 0.3);
+}
+.accentColor-46 .sidebar ul li.active:hover {
+  background-color: rgba(16, 137, 62, 0.5);
+}
+.accentColor-47 .sidebar ul li.active {
+  background-color: rgba(16, 124, 16, 0.3);
+}
+.accentColor-47 .sidebar ul li.active:hover {
+  background-color: rgba(16, 124, 16, 0.5);
+}
+.accentColor-48 .sidebar ul li.active {
+  background-color: rgba(126, 115, 95, 0.3);
+}
+.accentColor-48 .sidebar ul li.active:hover {
+  background-color: rgba(126, 115, 95, 0.5);
+}
 
 .icon, .title {
   display: table-cell;
@@ -1036,6 +2728,7 @@ a:active {
 
 .colorSquaresContainer {
   clear: both;
+  max-width: 275px;
 }
 
 .colorSquare {
@@ -1079,6 +2772,114 @@ a:active {
 }
 .colorSquare.accentColor-12 {
   background-color: #4C4A48;
+}
+.colorSquare.accentColor-13 {
+  background-color: #F7630C;
+}
+.colorSquare.accentColor-14 {
+  background-color: #EA005E;
+}
+.colorSquare.accentColor-15 {
+  background-color: #8E8CD8;
+}
+.colorSquare.accentColor-16 {
+  background-color: #00B7C3;
+}
+.colorSquare.accentColor-17 {
+  background-color: #68768A;
+}
+.colorSquare.accentColor-18 {
+  background-color: #69797E;
+}
+.colorSquare.accentColor-19 {
+  background-color: #CA5010;
+}
+.colorSquare.accentColor-20 {
+  background-color: #C30052;
+}
+.colorSquare.accentColor-21 {
+  background-color: #6B69D6;
+}
+.colorSquare.accentColor-22 {
+  background-color: #038387;
+}
+.colorSquare.accentColor-23 {
+  background-color: #515C6B;
+}
+.colorSquare.accentColor-24 {
+  background-color: #4A5459;
+}
+.colorSquare.accentColor-25 {
+  background-color: #DA3B01;
+}
+.colorSquare.accentColor-26 {
+  background-color: #E3008C;
+}
+.colorSquare.accentColor-27 {
+  background-color: #8764B8;
+}
+.colorSquare.accentColor-28 {
+  background-color: #00B294;
+}
+.colorSquare.accentColor-29 {
+  background-color: #567C73;
+}
+.colorSquare.accentColor-30 {
+  background-color: #647C64;
+}
+.colorSquare.accentColor-31 {
+  background-color: #EF6950;
+}
+.colorSquare.accentColor-32 {
+  background-color: #BF0077;
+}
+.colorSquare.accentColor-33 {
+  background-color: #744DA9;
+}
+.colorSquare.accentColor-34 {
+  background-color: #018574;
+}
+.colorSquare.accentColor-35 {
+  background-color: #486860;
+}
+.colorSquare.accentColor-36 {
+  background-color: #525E54;
+}
+.colorSquare.accentColor-37 {
+  background-color: #D13438;
+}
+.colorSquare.accentColor-38 {
+  background-color: #C239B3;
+}
+.colorSquare.accentColor-39 {
+  background-color: #B146C2;
+}
+.colorSquare.accentColor-40 {
+  background-color: #00CC6A;
+}
+.colorSquare.accentColor-41 {
+  background-color: #498205;
+}
+.colorSquare.accentColor-42 {
+  background-color: #847545;
+}
+.colorSquare.accentColor-43 {
+  background-color: #FF4343;
+}
+.colorSquare.accentColor-44 {
+  background-color: #9A0089;
+}
+.colorSquare.accentColor-45 {
+  background-color: #881798;
+}
+.colorSquare.accentColor-46 {
+  background-color: #10893E;
+}
+.colorSquare.accentColor-47 {
+  background-color: #107C10;
+}
+.colorSquare.accentColor-48 {
+  background-color: #7E735F;
 }
 .colorSquare.selected {
   border: 2px solid #000000;

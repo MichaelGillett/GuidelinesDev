@@ -42,7 +42,7 @@
         },
         typescript: {
             dev: {
-                src: ['Scripts/Module/**/*.ts'],
+                src: ['Scripts/Modules/**/*.ts'],
                 dest: 'Scripts/compiled',
                 options: {
                     module: 'amd',

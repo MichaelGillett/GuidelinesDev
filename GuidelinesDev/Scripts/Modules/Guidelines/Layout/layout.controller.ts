@@ -17,5 +17,7 @@
 
         vm.layout = layoutService;
         vm.state = $state;
+
+        console.log(vm.layout.colors);
     }
 })();

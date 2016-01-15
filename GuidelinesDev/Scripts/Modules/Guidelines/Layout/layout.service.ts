@@ -17,11 +17,19 @@
         var service: Layout = {
             accentColor: 0,
             colors: ['yellow', 'peach', 'lightblue', 'teal', 'grey1', 'grey2',
-                     'orange', 'red', 'blue', 'darkteal', 'darkgrey1', 'darkgrey2'],
+                     'orange', 'red', 'blue', 'darkteal', 'darkgrey1', 'darkgrey2',
+                     'darkorange', 'magenta', 'lilac', 'turquoise', 'bluegrey1', 'bluegrey2',
+                     'rust', 'darkmagenta', 'lavendar', 'darkturquoise', 'darkbluegrey1', 'darkbluegrey2',
+                     'bloodorange', 'pink', 'darklavendar', 'lime', 'greengrey', 'greengrey2',
+                     'lighbloodorange', 'darkpink', 'indigo', 'darklime', 'darkgreengrey1', 'darkgreengrey2',
+                     'darksalmon', 'lightpurple', 'lightindigo', 'brightgreen', 'grass', 'khaki',
+                     'salmon', 'purple', 'darkPurple', 'green', 'darkgreen', 'tan'],
             isThemeDark: false,
             selectAccentColor: selectAccentColor,
             toggleTheme: toggleTheme
         }
+
+        console.log(service.colors);
 
         return service;
 
