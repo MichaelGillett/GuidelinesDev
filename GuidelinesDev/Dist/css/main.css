@@ -58,14 +58,17 @@ header {
   margin: 0;
   padding: 0 10px;
   position: absolute;
+  right: 0;
   text-transform: uppercase;
   top: 0;
-  width: calc(100% - 50px);
+  transition: left 0.2s, width 0.2s;
 }
-@media (min-width: 700px) {
+@media (min-width: 640px) {
   header {
     left: 250px;
-    width: calc(100% - 250px);
+  }
+  header.collapsed {
+    left: 50px;
   }
 }
 .theme-dark header {
@@ -2163,16 +2166,21 @@ section.sidebar {
   overflow: hidden;
   position: absolute;
   top: 50px;
+  transition: width 0.2s;
   width: 0;
+  z-index: 1;
 }
 @media (min-width: 400px) {
   section.sidebar {
     width: 50px;
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 640px) {
   section.sidebar {
     width: 250px;
+  }
+  section.sidebar.collapsed {
+    width: 50px;
   }
 }
 .theme-dark section.sidebar {
@@ -2180,7 +2188,6 @@ section.sidebar {
 }
 section.sidebar.open {
   width: 250px;
-  z-index: 1;
 }
 section.contentArea {
   height: calc(100% - 50px);
@@ -2188,29 +2195,36 @@ section.contentArea {
   overflow: auto;
   padding: 10px;
   position: absolute;
+  right: 0;
   top: 50px;
-  width: 100%;
+  transition: left 0.2s, width 0.2s;
 }
 @media (min-width: 400px) {
   section.contentArea {
     left: 50px;
-    width: calc(100% - 50px);
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 640px) {
   section.contentArea {
     left: 250px;
-    width: calc(100% - 250px);
+  }
+  section.contentArea.expanded {
+    left: 50px;
+    transition: 0;
   }
 }
 
 .hamburger-container {
   background: #F2F2F2;
+  transition: all 0.2s;
   width: 50px;
 }
-@media (min-width: 700px) {
+@media (min-width: 640px) {
   .hamburger-container {
     width: 250px;
+  }
+  .hamburger-container.collapsed {
+    width: 50px;
   }
 }
 .theme-dark .hamburger-container {

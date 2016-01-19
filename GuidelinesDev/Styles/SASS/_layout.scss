@@ -9,7 +9,9 @@
         overflow: hidden;
         position: absolute;
         top: 50px;
+        transition: width 0.2s;
         width: 0;
+        z-index: 1;
 
         @media(min-width: $breakpoint-small) {
             width: 50px;
@@ -17,6 +19,10 @@
 
         @media(min-width: $breakpoint-medium) {
             width: 250px;
+
+            &.collapsed {
+                width: 50px;
+            }
         }
 
         .theme-dark & {
@@ -25,7 +31,6 @@
 
         &.open {
             width: 250px;
-            z-index: 1;
         }
     }
 
@@ -35,27 +40,36 @@
         overflow: auto;
         padding: 10px;
         position: absolute;
+        right: 0;
         top: 50px;
-        width: 100%;
+        transition: left 0.2s, width 0.2s;
         
         @media(min-width: $breakpoint-small) {
             left: 50px;
-            width: calc(100% - 50px);
         }
 
         @media(min-width: $breakpoint-medium) {
             left: 250px;
-            width: calc(100% - 250px);
+
+            &.expanded {
+                left: 50px;
+                transition: 0;
+            }
         }
     }
 }
 
 .hamburger-container {
     background: $lightThemeForeground;
+    transition: all 0.2s;
     width: 50px;
 
     @media(min-width: $breakpoint-medium) {
         width: 250px;
+
+        &.collapsed {
+            width: 50px;
+        }
     }
 
     .theme-dark & {
