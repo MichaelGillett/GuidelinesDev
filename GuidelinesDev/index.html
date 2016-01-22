@@ -24,5 +24,17 @@
     </section>
     <div ng-click="layoutCtrl.layout.closeSidebar()"><section class="contentArea" ui-view ng-class="{ 'expanded' : layoutCtrl.layout.isSidebarCollapsed}"></section></div>
     <script src="Scripts/build/guidelines.js"></script>
+    <script>
+        if (typeof Windows !== 'undefined') {
+            angular
+                .module('guidelines')
+                .value("Windows", { Windows: Windows });
+
+        } else {
+            angular
+                .module('guidelines')
+                .value("Windows", { });
+        }
+    </script>
 </body>
 </html>

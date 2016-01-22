@@ -61,7 +61,7 @@
 
 .hamburger-container {
     background: $lightThemeForeground;
-    transition: all 0.2s;
+    transition: width 0.2s;
     width: 50px;
 
     @media(min-width: $breakpoint-medium) {

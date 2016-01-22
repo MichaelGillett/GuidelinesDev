@@ -2216,7 +2216,7 @@ section.contentArea {
 
 .hamburger-container {
   background: #F2F2F2;
-  transition: all 0.2s;
+  transition: width 0.2s;
   width: 50px;
 }
 @media (min-width: 640px) {
