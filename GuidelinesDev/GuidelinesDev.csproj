@@ -62,7 +62,6 @@
     <Content Include="Styles\SASS\_inputs.scss" />
     <Content Include="Styles\SASS\_links.scss" />
     <Content Include="Styles\SASS\_sidebar.scss" />
-    <Content Include="Dist\css\main.css.map" />
     <None Include="guidelinesdev.pubxml" />
     <Content Include="Styles\CSS\main.css.map" />
     <None Include="web.Debug.config">
