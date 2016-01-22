@@ -5,6 +5,12 @@
         family: $primaryFontFamily;
     }
     margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
     &.theme-dark {
         background: $darkThemeBackground;
@@ -14,6 +20,7 @@
 
 h1, h2, h3, h4, h5, h6 {
     color: #000000;
+    cursor: default;
     font: {
         weight: 400;
     }
@@ -54,6 +61,7 @@ h3 {
 }
 
 p {
+    cursor: default;
     &.info {
         font-size: 12px;
     }
@@ -72,6 +80,7 @@ div {
 header {
     background: $lightThemeForegroundSecondary;
     box-sizing: border-box;
+    cursor: default;
 
     font: {
         size: 1.1em;
