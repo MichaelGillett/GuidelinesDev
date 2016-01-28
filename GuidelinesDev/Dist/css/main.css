@@ -3,6 +3,12 @@ body {
   color: #000000;
   font-family: "Segoe UI", Arial, sans-serif;
   margin: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 body.theme-dark {
   background: #000000;
@@ -11,6 +17,7 @@ body.theme-dark {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
+  cursor: default;
   font-weight: 400;
   margin: 0;
 }
@@ -35,6 +42,9 @@ h3 {
   margin-top: 5px;
 }
 
+p {
+  cursor: default;
+}
 p.info {
   font-size: 12px;
 }
@@ -50,6 +60,7 @@ div.contentGroup {
 header {
   background: #E6E6E6;
   box-sizing: border-box;
+  cursor: default;
   font-size: 1.1em;
   font-weight: 500;
   height: 50px;
