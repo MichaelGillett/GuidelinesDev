@@ -8,6 +8,9 @@ Twitter is the best place to contact me, [@MichaelGillett](http://twitter.com/mi
 #Change log
 
 ##2016
+###January 29th - Radio button styling
+- Add styling for radio inputs to match that of native Windows 10 apps
+
 ###January 22nd - Windows 10 accent colour
 - Add functionality to use Windows 10's accent colour as the default colour
 - Improve styling to stop text being selectable, like a native app
