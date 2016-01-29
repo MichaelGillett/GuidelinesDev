@@ -1841,6 +1841,343 @@ input[type=checkbox].toggleSwitch:checked ~ label:after {
   border-color: #615849;
 }
 
+.radioContainer {
+  margin-bottom: 10px;
+}
+
+input[type=radio] {
+  background: transparent;
+  border: 2px solid #666;
+  border-radius: 50%;
+  font-family: 'segoe ui';
+  height: 20px;
+  margin-right: 7px;
+  outline: none;
+  position: relative;
+  vertical-align: middle;
+  width: 20px;
+  -webkit-appearance: none;
+}
+.theme-dark input[type=radio] {
+  color: #fff;
+}
+input[type=radio]:focus, input[type=radio]:checked {
+  color: #000;
+}
+.accentColor-1 input[type=radio]:focus, .accentColor-1 input[type=radio]:checked {
+  border-color: #FFB900;
+}
+.accentColor-2 input[type=radio]:focus, .accentColor-2 input[type=radio]:checked {
+  border-color: #E74856;
+}
+.accentColor-3 input[type=radio]:focus, .accentColor-3 input[type=radio]:checked {
+  border-color: #0078D7;
+}
+.accentColor-4 input[type=radio]:focus, .accentColor-4 input[type=radio]:checked {
+  border-color: #0099BC;
+}
+.accentColor-5 input[type=radio]:focus, .accentColor-5 input[type=radio]:checked {
+  border-color: #7A7574;
+}
+.accentColor-6 input[type=radio]:focus, .accentColor-6 input[type=radio]:checked {
+  border-color: #767676;
+}
+.accentColor-7 input[type=radio]:focus, .accentColor-7 input[type=radio]:checked {
+  border-color: #FF8C00;
+}
+.accentColor-8 input[type=radio]:focus, .accentColor-8 input[type=radio]:checked {
+  border-color: #E81123;
+}
+.accentColor-9 input[type=radio]:focus, .accentColor-9 input[type=radio]:checked {
+  border-color: #0063B1;
+}
+.accentColor-10 input[type=radio]:focus, .accentColor-10 input[type=radio]:checked {
+  border-color: #2D7D9A;
+}
+.accentColor-11 input[type=radio]:focus, .accentColor-11 input[type=radio]:checked {
+  border-color: #5D5A58;
+}
+.accentColor-12 input[type=radio]:focus, .accentColor-12 input[type=radio]:checked {
+  border-color: #4C4A48;
+}
+.accentColor-13 input[type=radio]:focus, .accentColor-13 input[type=radio]:checked {
+  border-color: #F7630C;
+}
+.accentColor-14 input[type=radio]:focus, .accentColor-14 input[type=radio]:checked {
+  border-color: #EA005E;
+}
+.accentColor-15 input[type=radio]:focus, .accentColor-15 input[type=radio]:checked {
+  border-color: #8E8CD8;
+}
+.accentColor-16 input[type=radio]:focus, .accentColor-16 input[type=radio]:checked {
+  border-color: #00B7C3;
+}
+.accentColor-17 input[type=radio]:focus, .accentColor-17 input[type=radio]:checked {
+  border-color: #68768A;
+}
+.accentColor-18 input[type=radio]:focus, .accentColor-18 input[type=radio]:checked {
+  border-color: #69797E;
+}
+.accentColor-19 input[type=radio]:focus, .accentColor-19 input[type=radio]:checked {
+  border-color: #CA5010;
+}
+.accentColor-20 input[type=radio]:focus, .accentColor-20 input[type=radio]:checked {
+  border-color: #C30052;
+}
+.accentColor-21 input[type=radio]:focus, .accentColor-21 input[type=radio]:checked {
+  border-color: #6B69D6;
+}
+.accentColor-22 input[type=radio]:focus, .accentColor-22 input[type=radio]:checked {
+  border-color: #038387;
+}
+.accentColor-23 input[type=radio]:focus, .accentColor-23 input[type=radio]:checked {
+  border-color: #515C6B;
+}
+.accentColor-24 input[type=radio]:focus, .accentColor-24 input[type=radio]:checked {
+  border-color: #4A5459;
+}
+.accentColor-25 input[type=radio]:focus, .accentColor-25 input[type=radio]:checked {
+  border-color: #DA3B01;
+}
+.accentColor-26 input[type=radio]:focus, .accentColor-26 input[type=radio]:checked {
+  border-color: #E3008C;
+}
+.accentColor-27 input[type=radio]:focus, .accentColor-27 input[type=radio]:checked {
+  border-color: #8764B8;
+}
+.accentColor-28 input[type=radio]:focus, .accentColor-28 input[type=radio]:checked {
+  border-color: #00B294;
+}
+.accentColor-29 input[type=radio]:focus, .accentColor-29 input[type=radio]:checked {
+  border-color: #567C73;
+}
+.accentColor-30 input[type=radio]:focus, .accentColor-30 input[type=radio]:checked {
+  border-color: #647C64;
+}
+.accentColor-31 input[type=radio]:focus, .accentColor-31 input[type=radio]:checked {
+  border-color: #EF6950;
+}
+.accentColor-32 input[type=radio]:focus, .accentColor-32 input[type=radio]:checked {
+  border-color: #BF0077;
+}
+.accentColor-33 input[type=radio]:focus, .accentColor-33 input[type=radio]:checked {
+  border-color: #744DA9;
+}
+.accentColor-34 input[type=radio]:focus, .accentColor-34 input[type=radio]:checked {
+  border-color: #018574;
+}
+.accentColor-35 input[type=radio]:focus, .accentColor-35 input[type=radio]:checked {
+  border-color: #486860;
+}
+.accentColor-36 input[type=radio]:focus, .accentColor-36 input[type=radio]:checked {
+  border-color: #525E54;
+}
+.accentColor-37 input[type=radio]:focus, .accentColor-37 input[type=radio]:checked {
+  border-color: #D13438;
+}
+.accentColor-38 input[type=radio]:focus, .accentColor-38 input[type=radio]:checked {
+  border-color: #C239B3;
+}
+.accentColor-39 input[type=radio]:focus, .accentColor-39 input[type=radio]:checked {
+  border-color: #B146C2;
+}
+.accentColor-40 input[type=radio]:focus, .accentColor-40 input[type=radio]:checked {
+  border-color: #00CC6A;
+}
+.accentColor-41 input[type=radio]:focus, .accentColor-41 input[type=radio]:checked {
+  border-color: #498205;
+}
+.accentColor-42 input[type=radio]:focus, .accentColor-42 input[type=radio]:checked {
+  border-color: #847545;
+}
+.accentColor-43 input[type=radio]:focus, .accentColor-43 input[type=radio]:checked {
+  border-color: #FF4343;
+}
+.accentColor-44 input[type=radio]:focus, .accentColor-44 input[type=radio]:checked {
+  border-color: #9A0089;
+}
+.accentColor-45 input[type=radio]:focus, .accentColor-45 input[type=radio]:checked {
+  border-color: #881798;
+}
+.accentColor-46 input[type=radio]:focus, .accentColor-46 input[type=radio]:checked {
+  border-color: #10893E;
+}
+.accentColor-47 input[type=radio]:focus, .accentColor-47 input[type=radio]:checked {
+  border-color: #107C10;
+}
+.accentColor-48 input[type=radio]:focus, .accentColor-48 input[type=radio]:checked {
+  border-color: #7E735F;
+}
+input[type=radio]:focus:before, input[type=radio]:checked:before {
+  background: #333333;
+  border-radius: 50%;
+  content: " ";
+  height: 10px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 10px;
+}
+.theme-dark input[type=radio]:focus:before, .theme-dark input[type=radio]:checked:before {
+  background: #CCCCCC;
+}
+input[type=radio]:hover {
+  border: 2px solid #888;
+}
+.accentColor-1 input[type=radio]:hover {
+  border-color: #ffc733;
+}
+.accentColor-2 input[type=radio]:hover {
+  border-color: #ed7580;
+}
+.accentColor-3 input[type=radio]:hover {
+  border-color: #0b93ff;
+}
+.accentColor-4 input[type=radio]:hover {
+  border-color: #00c3ef;
+}
+.accentColor-5 input[type=radio]:hover {
+  border-color: #938f8e;
+}
+.accentColor-6 input[type=radio]:hover {
+  border-color: #909090;
+}
+.accentColor-7 input[type=radio]:hover {
+  border-color: #ffa333;
+}
+.accentColor-8 input[type=radio]:hover {
+  border-color: #f13b4b;
+}
+.accentColor-9 input[type=radio]:hover {
+  border-color: #0080e4;
+}
+.accentColor-10 input[type=radio]:hover {
+  border-color: #399dc1;
+}
+.accentColor-11 input[type=radio]:hover {
+  border-color: #777371;
+}
+.accentColor-12 input[type=radio]:hover {
+  border-color: #666461;
+}
+.accentColor-13 input[type=radio]:hover {
+  border-color: #f9833d;
+}
+.accentColor-14 input[type=radio]:hover {
+  border-color: #ff1e78;
+}
+.accentColor-15 input[type=radio]:hover {
+  border-color: #b3b2e5;
+}
+.accentColor-16 input[type=radio]:hover {
+  border-color: #00e7f6;
+}
+.accentColor-17 input[type=radio]:hover {
+  border-color: #8390a2;
+}
+.accentColor-18 input[type=radio]:hover {
+  border-color: #839297;
+}
+.accentColor-19 input[type=radio]:hover {
+  border-color: #ed6620;
+}
+.accentColor-20 input[type=radio]:hover {
+  border-color: #f60067;
+}
+.accentColor-21 input[type=radio]:hover {
+  border-color: #9391e1;
+}
+.accentColor-22 input[type=radio]:hover {
+  border-color: #04b3b9;
+}
+.accentColor-23 input[type=radio]:hover {
+  border-color: #677588;
+}
+.accentColor-24 input[type=radio]:hover {
+  border-color: #616e75;
+}
+.accentColor-25 input[type=radio]:hover {
+  border-color: #fe5010;
+}
+.accentColor-26 input[type=radio]:hover {
+  border-color: #ff17a6;
+}
+.accentColor-27 input[type=radio]:hover {
+  border-color: #a287c8;
+}
+.accentColor-28 input[type=radio]:hover {
+  border-color: #00e5be;
+}
+.accentColor-29 input[type=radio]:hover {
+  border-color: #6c998e;
+}
+.accentColor-30 input[type=radio]:hover {
+  border-color: #7d967d;
+}
+.accentColor-31 input[type=radio]:hover {
+  border-color: #f3917f;
+}
+.accentColor-32 input[type=radio]:hover {
+  border-color: #f20097;
+}
+.accentColor-33 input[type=radio]:hover {
+  border-color: #8e6dbc;
+}
+.accentColor-34 input[type=radio]:hover {
+  border-color: #01b8a0;
+}
+.accentColor-35 input[type=radio]:hover {
+  border-color: #5d867c;
+}
+.accentColor-36 input[type=radio]:hover {
+  border-color: #6a796c;
+}
+.accentColor-37 input[type=radio]:hover {
+  border-color: #da5e61;
+}
+.accentColor-38 input[type=radio]:hover {
+  border-color: #d05ec3;
+}
+.accentColor-39 input[type=radio]:hover {
+  border-color: #c16ccf;
+}
+.accentColor-40 input[type=radio]:hover {
+  border-color: #00ff85;
+}
+.accentColor-41 input[type=radio]:hover {
+  border-color: #65b307;
+}
+.accentColor-42 input[type=radio]:hover {
+  border-color: #a59357;
+}
+.accentColor-43 input[type=radio]:hover {
+  border-color: #ff7676;
+}
+.accentColor-44 input[type=radio]:hover {
+  border-color: #cd00b6;
+}
+.accentColor-45 input[type=radio]:hover {
+  border-color: #b01ec4;
+}
+.accentColor-46 input[type=radio]:hover {
+  border-color: #15b753;
+}
+.accentColor-47 input[type=radio]:hover {
+  border-color: #16a916;
+}
+.accentColor-48 input[type=radio]:hover {
+  border-color: #998d77;
+}
+input[type=radio]:hover:before {
+  background: #000000;
+}
+.theme-dark input[type=radio]:hover:before {
+  background: #FFFFFF;
+}
+input[type=radio] ~ label {
+  vertical-align: middle;
+}
+
 input[type=text] {
   background: transparent;
   border: 2px solid #666;

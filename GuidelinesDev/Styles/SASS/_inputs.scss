@@ -168,6 +168,66 @@
     }
 }
 
+.radioContainer {
+    margin-bottom: 10px;
+}
+
+input[type=radio] {
+    background: transparent;
+    border: 2px solid #666;
+    border-radius: 50%;
+    font-family: 'segoe ui';
+    height: 20px;
+    margin-right: 7px;
+    outline: none;
+    position: relative;
+    vertical-align: middle;
+    width: 20px;
+    -webkit-appearance: none;
+
+    .theme-dark & {
+        color: #fff;
+    }
+
+    &:focus, &:checked {
+        color: #000;
+
+        @include accentBorderAnd();
+
+        &:before {
+            background: $darkThemeButtonBackgroundPrimary;
+            border-radius: 50%;
+            content: " ";
+            height: 10px;
+            left: 3px;
+            position: absolute;
+            top: 3px;
+            width: 10px;
+            
+            .theme-dark & {
+                background: $lightThemeButtonBackgroundPrimary;
+            }
+        }
+    }
+
+    &:hover {
+        border: 2px solid #888;
+        @include accentLightenColorBorderAnd();
+
+        &:before {
+            background: $darkThemeBackground;
+            
+            .theme-dark & {
+                background: $lightThemeBackground;
+            }
+        }
+    }
+
+    & ~ label {
+        vertical-align: middle;
+    }
+}
+
 input[type=text] {
     background: transparent;
     border: 2px solid #666;
