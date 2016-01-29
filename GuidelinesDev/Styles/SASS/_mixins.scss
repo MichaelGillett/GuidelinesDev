@@ -39,6 +39,16 @@
     }
 }
 
+@mixin accentLightenColorBorderAnd {
+
+  @each $current-color in $accentColors {
+    $i: index($accentColors, $current-color);
+        .accentColor-#{$i} & { 
+            border-color: lighten($current-color, 10%);
+        }
+    }
+}
+
 @mixin accentLightenColorBackgroundBorderAnd {
 
   @each $current-color in $accentColors {
