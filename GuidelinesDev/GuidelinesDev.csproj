@@ -24,6 +24,7 @@
   <ItemGroup>
     <Content Include="Dist\css\main.css" />
     <Content Include="Dist\js\guidelines.js" />
+    <Content Include="favicon.ico" />
     <Content Include="Gruntfile.js" />
     <Content Include="index.html" />
     <Content Include="karma.conf.js" />
