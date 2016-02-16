@@ -14,3 +14,10 @@
         <div class="colorSquare accentColor-{{$index + 1}}" ng-repeat="color in layoutCtrl.layout.colors" ng-click="layoutCtrl.layout.selectAccentColor($index)" ng-class="{'selected' : layoutCtrl.layout.accentColor == $index}"></div>
     </div>
 </div>
+
+<div class="control">
+    <h3>Links</h3>
+    <div><a href="http://twitter.com/michaelgillett">@MichaelGillett</a></div>
+    <div><a ui-sref="privacy">Privacy Policy</a></div>
+</div>
+

@@ -30,6 +30,7 @@
     <Content Include="karma.conf.js" />
     <Content Include="Scripts\build\guidelines.js" />
     <Content Include="Scripts\Modules\Guidelines\Home\Home.html" />
+    <Content Include="Scripts\Modules\Guidelines\Privacy\Privacy.html" />
     <Content Include="Scripts\Modules\Guidelines\Settings\Settings.html" />
     <Content Include="Scripts\Modules\Guidelines\ControlsAndPatterns\controlsandpatterns.html" />
     <Content Include="Styles\CSS\main.css" />
