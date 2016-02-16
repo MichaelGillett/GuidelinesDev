@@ -20,6 +20,10 @@
             .state('settings', {
                 url: "/settings",
                 templateUrl: "Scripts/Modules/Guidelines/Settings/settings.html"
+            })
+            .state('privacy', {
+                url: "/privacy",
+                templateUrl: "Scripts/Modules/Guidelines/Privacy/privacy.html"
             });
     }
 })();
