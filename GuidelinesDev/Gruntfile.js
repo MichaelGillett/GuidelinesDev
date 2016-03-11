@@ -6,13 +6,19 @@
                 separator: ';',
             },
             dev: {
-                src: ['Scripts/compiled/guidelines.module.js', 'Scripts/compiled/guidelines.config.js', 'Scripts/compiled/**/*.js'],
+                src: ['Scripts/compiled/templates.js', 'Scripts/compiled/guidelines.module.js', 'Scripts/compiled/guidelines.config.js', 'Scripts/compiled/**/*.js'],
                 dest: 'Scripts/build/guidelines.js',
             },
             build: {
-                src: ['Scripts/compiled/guidelines.module.js', 'Scripts/compiled/guidelines.config.js', 'Scripts/compiled/**/*.js'],
+                src: ['Scripts/compiled/templates.js', 'Scripts/compiled/guidelines.module.js', 'Scripts/compiled/guidelines.config.js', 'Scripts/compiled/**/*.js'],
                 dest: 'Dist/js/guidelines.js',
             }
+        },
+        html2js: {
+            main: {
+                src: ['Scripts/Modules/Guidelines/**/*.html'],
+                dest: 'Scripts/compiled/templates.js'
+            },
         },
         ngAnnotate: {
             options: {
@@ -54,7 +60,7 @@
         watch: {
             scripts: {
                 files: ['Scripts/Modules/**/*.ts', 'Styles/SASS/**/*.scss'],
-                tasks: ['typescript', 'concat', 'ngAnnotate', 'sass', ],
+                tasks: ['typescript', 'concat', 'ngAnnotate', 'html2js', 'sass'],
                 options: {
                     spawn: false,
                 },
@@ -67,7 +73,8 @@
     grunt.loadNpmTasks('grunt-ng-annotate');
     grunt.loadNpmTasks('grunt-typescript');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-html2js');
 
-    grunt.registerTask('default', ['typescript', 'concat:dev', 'ngAnnotate', 'sass:dev', 'watch']);
+    grunt.registerTask('default', ['typescript', 'concat:dev', 'ngAnnotate', 'html2js', 'sass:dev', 'watch']);
     grunt.registerTask('build', ['typescript', 'concat:build', 'ngAnnotate', 'sass:build']);
 };

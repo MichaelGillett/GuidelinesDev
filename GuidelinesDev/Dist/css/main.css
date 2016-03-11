@@ -2606,6 +2606,7 @@ section.contentArea {
 
 .control {
   box-sizing: border-box;
+  clear: both;
   padding: 10px 0;
 }
 .control:last-of-type {
