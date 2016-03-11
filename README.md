@@ -8,6 +8,10 @@ Twitter is the best place to contact me, [@MichaelGillett](http://twitter.com/mi
 #Change log
 
 ##2016
+###March 11th - Error handling when no internet
+- Add error splash screen when no internet on first load
+- .html files are compiled into .js files and cached once the app/site is visited
+
 ###January 29th - Radio button styling
 - Add styling for radio inputs to match that of native Windows 10 apps
 
