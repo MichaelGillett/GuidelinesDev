@@ -2,5 +2,8 @@
     'use strict';
 
     angular
-        .module('guidelines', ['ui.router']);
+        .module('guidelines', [
+            'ui.router',
+            'templates-main'
+        ]);
 })();

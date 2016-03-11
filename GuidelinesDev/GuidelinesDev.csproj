@@ -29,6 +29,8 @@
     <Content Include="index.html" />
     <Content Include="karma.conf.js" />
     <Content Include="Scripts\build\guidelines.js" />
+    <Content Include="Scripts\Lib\angular-ui-router.min.js" />
+    <Content Include="Scripts\Lib\angular.min.js" />
     <Content Include="Scripts\Modules\Guidelines\Home\Home.html" />
     <Content Include="Scripts\Modules\Guidelines\Privacy\Privacy.html" />
     <Content Include="Scripts\Modules\Guidelines\Settings\Settings.html" />
