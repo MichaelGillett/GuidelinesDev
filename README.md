@@ -8,7 +8,7 @@ Twitter is the best place to contact me, [@MichaelGillett](http://twitter.com/mi
 #Change log
 
 ##2016
-###March 11th - Error handling when no internet
+###March 11th - Error handling when internet not available
 - Add error splash screen when no internet on first load
 - .html files are compiled into .js files and cached once the app/site is visited
 
