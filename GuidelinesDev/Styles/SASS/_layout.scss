@@ -35,7 +35,7 @@
     }
 
     &.contentArea {
-        height: calc(100% - 50px);
+        height: calc(100% - 100px);
         left: 0;
         overflow: auto;
         padding: 10px;
@@ -45,6 +45,7 @@
         transition: left 0.2s, width 0.2s;
         
         @media(min-width: $breakpoint-small) {
+            height: calc(100% - 50px);
             left: 50px;
         }
 
@@ -115,5 +116,56 @@
 
     &:last-of-type {
         padding-bottom: 50px;
+    }
+}
+
+.actionBar {
+    background: $lightThemeForegroundSecondary;
+    bottom: 0;
+    color: #000000;
+    height: 50px;
+    left: 0;
+    position: fixed;
+    right: 0;
+
+    .theme-dark & {
+        background: $darkThemeForegroundSecondary;
+        color: #FFFFFF;
+    }
+
+    @media(min-width: $breakpoint-small) {
+        float: right;
+        position: relative;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+
+            a {
+                display: inline-block;
+                font-family: 'Segoe MDL2 Assets';
+                padding: 0 14px;
+
+                &:hover {
+                    background: rgba(0,0,0,0.1);
+
+                    .theme-dark & {
+                        background: rgba(255,255,255,0.1);
+                    }
+                }
+            }
+        }
+    }
+
+    .action {
+        color: #000000;
+
+        .theme-dark & {
+            color: #FFFFFF;
+        }
     }
 }

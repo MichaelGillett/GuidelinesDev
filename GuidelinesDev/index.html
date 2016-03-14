@@ -7,22 +7,15 @@
     <link href="Styles/CSS/main.css" rel="stylesheet" />
 </head>
 <body class="accentColor-{{layoutCtrl.layout.accentColor + 1}}" ng-class="{'theme-dark' : layoutCtrl.layout.isThemeDark}" ng-controller="layoutController as layoutCtrl">
-    <header ng-class="{ 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}">
-        {{layoutCtrl.state.current.name}}
-    </header>
-    <div class="hamburger-container" ng-class="{ 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}">
-        <div class="hamburger" ng-click="layoutCtrl.windowWidth < 640 ? layoutCtrl.layout.toggleSidebar() : layoutCtrl.layout.expandCollapseSidebar()">
-            <div class="mdl2-menu icon"></div>
+    <section class="contentArea" ng-class="{ 'expanded' : layoutCtrl.layout.isSidebarCollapsed}" ui-view>
+        <header ng-class="{ 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}">
+            {{layoutCtrl.state.current.name}}
+        </header>
+        <div ng-click="layoutCtrl.layout.closeSidebar()">
+            <section ng-class="{ 'expanded' : layoutCtrl.layout.isSidebarCollapsed}"></section>
         </div>
-    </div>
-    <section class="sidebar" ng-class="{ 'open' : layoutCtrl.layout.isSidebarOpen, 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}">
-        <ul>
-            <li ui-sref="home" ui-sref-active="active"><div class="mdl2-home icon"></div><div class="title">Home</div></li>
-            <li ui-sref="controls and patterns" ui-sref-active="active"><div class="mdl2-controls icon"></div><div class="title">Controls and Patterns</div></li>
-            <li ui-sref="settings" ui-sref-active="active"><div class="mdl2-settings icon"></div><div class="title">Settings</div></li>
-        </ul>
     </section>
-    <div ng-click="layoutCtrl.layout.closeSidebar()"><section class="contentArea" ui-view ng-class="{ 'expanded' : layoutCtrl.layout.isSidebarCollapsed}"></section></div>
+    <div sidebar></div>
     <script src="Scripts/build/guidelines.js"></script>
     <script>
         if (typeof Windows !== 'undefined') {

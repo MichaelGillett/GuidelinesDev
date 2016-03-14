@@ -59,7 +59,7 @@
         },
         watch: {
             scripts: {
-                files: ['Scripts/Modules/**/*.ts', 'Styles/SASS/**/*.scss'],
+                files: ['Scripts/Modules/**/*.html', 'Scripts/Modules/**/*.ts', 'Styles/SASS/**/*.scss'],
                 tasks: ['typescript', 'concat', 'ngAnnotate', 'html2js', 'sass'],
                 options: {
                     spawn: false,

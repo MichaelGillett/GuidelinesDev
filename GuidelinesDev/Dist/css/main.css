@@ -67,8 +67,7 @@ header {
   left: 50px;
   line-height: 50px;
   margin: 0;
-  padding: 0 10px;
-  position: absolute;
+  position: fixed;
   right: 0;
   text-transform: uppercase;
   top: 0;
@@ -84,6 +83,13 @@ header {
 }
 .theme-dark header {
   background: #1F1F1F;
+}
+header p {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+header ul {
+  margin: 0;
 }
 
 .blue .accentColor {
@@ -2538,7 +2544,7 @@ section.sidebar.open {
   width: 250px;
 }
 section.contentArea {
-  height: calc(100% - 50px);
+  height: calc(100% - 100px);
   left: 0;
   overflow: auto;
   padding: 10px;
@@ -2549,6 +2555,7 @@ section.contentArea {
 }
 @media (min-width: 400px) {
   section.contentArea {
+    height: calc(100% - 50px);
     left: 50px;
   }
 }
@@ -2611,6 +2618,50 @@ section.contentArea {
 }
 .control:last-of-type {
   padding-bottom: 50px;
+}
+
+.actionBar {
+  background: #E6E6E6;
+  bottom: 0;
+  color: #000000;
+  height: 50px;
+  left: 0;
+  position: fixed;
+  right: 0;
+}
+.theme-dark .actionBar {
+  background: #1F1F1F;
+  color: #FFFFFF;
+}
+@media (min-width: 400px) {
+  .actionBar {
+    float: right;
+    position: relative;
+  }
+}
+.actionBar ul {
+  list-style: none;
+  padding: 0;
+}
+.actionBar ul li {
+  display: inline-block;
+}
+.actionBar ul li a {
+  display: inline-block;
+  font-family: 'Segoe MDL2 Assets';
+  padding: 0 14px;
+}
+.actionBar ul li a:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.theme-dark .actionBar ul li a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.actionBar .action {
+  color: #000000;
+}
+.theme-dark .actionBar .action {
+  color: #FFFFFF;
 }
 
 a {
