@@ -2635,12 +2635,13 @@ section.contentArea {
 }
 @media (min-width: 400px) {
   .actionBar {
-    float: right;
-    position: relative;
+    left: initial;
+    top: 0;
   }
 }
 .actionBar ul {
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 .actionBar ul li {
@@ -2649,6 +2650,8 @@ section.contentArea {
 .actionBar ul li a {
   display: inline-block;
   font-family: 'Segoe MDL2 Assets';
+  height: 50px;
+  line-height: 50px;
   padding: 0 14px;
 }
 .actionBar ul li a:hover {

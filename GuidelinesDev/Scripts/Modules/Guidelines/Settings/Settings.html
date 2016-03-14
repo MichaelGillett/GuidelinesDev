@@ -1,11 +1,8 @@
-﻿<header ng-class="{ 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}">
-    <p>{{layoutCtrl.state.current.name}}</p>
-    <div class="actionBar">
-        <ul>
-            <li><a href="#" ui-sref="home"><span class="icon action">&#xE80f</span></a></li>
-        </ul>
-    </div>
-</header>
+﻿<div class="actionBar">
+    <ul>
+        <li><a href="#" ui-sref="home"><span class="icon action">&#xE80f</span></a></li>
+    </ul>
+</div>
 <div ng-click="layoutCtrl.layout.closeSidebar()">
     <h2>Guidelines Settings</h2>
 

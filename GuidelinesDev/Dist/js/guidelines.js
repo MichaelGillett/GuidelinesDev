@@ -2,14 +2,11 @@ angular.module('templates-main', ['../Scripts/Modules/Guidelines/ControlsAndPatt
 
 angular.module("../Scripts/Modules/Guidelines/ControlsAndPatterns/controlsandpatterns.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../Scripts/Modules/Guidelines/ControlsAndPatterns/controlsandpatterns.html",
-    "<header ng-class=\"{ 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}\">\n" +
-    "    <p>{{layoutCtrl.state.current.name}}</p>\n" +
-    "    <div class=\"actionBar\">\n" +
-    "        <ul>\n" +
-    "            <li><a href=\"#\" ui-sref=\"home\"><span class=\"icon action\">&#xE80f</span></a></li>\n" +
-    "        </ul>\n" +
-    "    </div>\n" +
-    "</header>\n" +
+    "<div class=\"actionBar\">\n" +
+    "    <ul>\n" +
+    "        <li><a href=\"#\" ui-sref=\"home\"><span class=\"icon action\">&#xE80f</span></a></li>\n" +
+    "    </ul>\n" +
+    "</div>\n" +
     "<div ng-click=\"layoutCtrl.layout.closeSidebar()\">\n" +
     "    <div class=\"control\">\n" +
     "        <h2>Links</h2>\n" +
@@ -106,16 +103,13 @@ angular.module("../Scripts/Modules/Guidelines/ControlsAndPatterns/controlsandpat
 
 angular.module("../Scripts/Modules/Guidelines/Home/Home.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../Scripts/Modules/Guidelines/Home/Home.html",
-    "<header ng-class=\"{ 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}\">\n" +
-    "    <p>{{layoutCtrl.state.current.name}}</p>\n" +
-    "    <div class=\"actionBar\">\n" +
-    "        <ul>\n" +
-    "            <li><a href=\"http://twitter.com/michaelgillett\"><span class=\"icon action\">&#xE13D</span></a></li>\n" +
-    "            <li><a href=\"https://www.microsoft.com/store/apps/9NBLGGH5DN8D\"><span class=\"icon action\">&#xE896</span></a></li>\n" +
-    "            <li><a href=\"https://github.com/MichaelGillett/GuidelinesDev\"><span class=\"icon action\">&#xE104</span></a></li>\n" +
-    "        </ul>\n" +
-    "    </div>\n" +
-    "</header>\n" +
+    "<div class=\"actionBar\">\n" +
+    "    <ul>\n" +
+    "        <li><a href=\"http://twitter.com/michaelgillett\"><span class=\"icon action\">&#xE13D</span></a></li>\n" +
+    "        <li><a href=\"https://www.microsoft.com/store/apps/9NBLGGH5DN8D\"><span class=\"icon action\">&#xE896</span></a></li>\n" +
+    "        <li><a href=\"https://github.com/MichaelGillett/GuidelinesDev\"><span class=\"icon action\">&#xE104</span></a></li>\n" +
+    "    </ul>\n" +
+    "</div>\n" +
     "<div ng-click=\"layoutCtrl.layout.closeSidebar()\">\n" +
     "    <h2 class=\"center\"><span class=\"icon\">&#xE12C</span></h2>\n" +
     "    <h2 class=\"center\">Welcome to GuidelinesDev</h2>\n" +
@@ -157,14 +151,11 @@ angular.module("../Scripts/Modules/Guidelines/Layout/Sidebar.html", []).run(["$t
 
 angular.module("../Scripts/Modules/Guidelines/Privacy/Privacy.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../Scripts/Modules/Guidelines/Privacy/Privacy.html",
-    "<header ng-class=\"{ 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}\">\n" +
-    "    <p>{{layoutCtrl.state.current.name}}</p>\n" +
-    "    <div class=\"actionBar\">\n" +
-    "        <ul>\n" +
-    "            <li><a href=\"#\" ui-sref=\"home\"><span class=\"icon action\">&#xE80f</span></a></li>\n" +
-    "        </ul>\n" +
-    "    </div>\n" +
-    "</header>\n" +
+    "<div class=\"actionBar\">\n" +
+    "    <ul>\n" +
+    "        <li><a href=\"#\" ui-sref=\"home\"><span class=\"icon action\">&#xE80f</span></a></li>\n" +
+    "    </ul>\n" +
+    "</div>\n" +
     "<div ng-click=\"layoutCtrl.layout.closeSidebar()\">\n" +
     "    <h2>Privacy Policy</h2>\n" +
     "\n" +
@@ -230,14 +221,11 @@ angular.module("../Scripts/Modules/Guidelines/Privacy/Privacy.html", []).run(["$
 
 angular.module("../Scripts/Modules/Guidelines/Settings/Settings.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../Scripts/Modules/Guidelines/Settings/Settings.html",
-    "<header ng-class=\"{ 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}\">\n" +
-    "    <p>{{layoutCtrl.state.current.name}}</p>\n" +
-    "    <div class=\"actionBar\">\n" +
-    "        <ul>\n" +
-    "            <li><a href=\"#\" ui-sref=\"home\"><span class=\"icon action\">&#xE80f</span></a></li>\n" +
-    "        </ul>\n" +
-    "    </div>\n" +
-    "</header>\n" +
+    "<div class=\"actionBar\">\n" +
+    "    <ul>\n" +
+    "        <li><a href=\"#\" ui-sref=\"home\"><span class=\"icon action\">&#xE80f</span></a></li>\n" +
+    "    </ul>\n" +
+    "</div>\n" +
     "<div ng-click=\"layoutCtrl.layout.closeSidebar()\">\n" +
     "    <h2>Guidelines Settings</h2>\n" +
     "\n" +

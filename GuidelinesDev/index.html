@@ -7,14 +7,10 @@
     <link href="Styles/CSS/main.css" rel="stylesheet" />
 </head>
 <body class="accentColor-{{layoutCtrl.layout.accentColor + 1}}" ng-class="{'theme-dark' : layoutCtrl.layout.isThemeDark}" ng-controller="layoutController as layoutCtrl">
-    <section class="contentArea" ng-class="{ 'expanded' : layoutCtrl.layout.isSidebarCollapsed}" ui-view>
-        <header ng-class="{ 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}">
-            {{layoutCtrl.state.current.name}}
-        </header>
-        <div ng-click="layoutCtrl.layout.closeSidebar()">
-            <section ng-class="{ 'expanded' : layoutCtrl.layout.isSidebarCollapsed}"></section>
-        </div>
-    </section>
+    <header ng-class="{ 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}">
+        <p>{{layoutCtrl.state.current.name}}</p>
+    </header>
+    <section class="contentArea" ng-class="{ 'expanded' : layoutCtrl.layout.isSidebarCollapsed}" ui-view></section>
     <div sidebar></div>
     <script src="Scripts/build/guidelines.js"></script>
     <script>
