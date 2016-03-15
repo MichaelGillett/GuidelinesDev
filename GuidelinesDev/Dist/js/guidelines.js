@@ -135,7 +135,7 @@ angular.module("../Scripts/Modules/Guidelines/Home/Home.html", []).run(["$templa
 angular.module("../Scripts/Modules/Guidelines/Layout/Sidebar.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../Scripts/Modules/Guidelines/Layout/Sidebar.html",
     "<div class=\"hamburger-container\" ng-class=\"{ 'collapsed' : layoutCtrl.layout.isSidebarCollapsed}\">\n" +
-    "    <div class=\"hamburger\" ng-click=\"layoutCtrl.windowWidth < 640 ? layoutCtrl.layout.toggleSidebar() : layoutCtrl.layout.expandCollapseSidebar()\">\n" +
+    "    <div class=\"hamburger\" ng-click=\"layoutCtrl.windowWidth < 800 ? layoutCtrl.layout.toggleSidebar() : layoutCtrl.layout.expandCollapseSidebar()\">\n" +
     "        <div class=\"mdl2-menu icon\"></div>\n" +
     "    </div>\n" +
     "</div>\n" +
@@ -301,7 +301,7 @@ angular.module("../Scripts/Modules/Guidelines/Settings/Settings.html", []).run([
         function initialise() {
             $window.addEventListener('resize', function () {
                 $scope.$apply(function () {
-                    if (window.innerWidth <= 640 && vm.layout.isSidebarOpen) {
+                    if (window.innerWidth <= 800 && vm.layout.isSidebarOpen) {
                         vm.layout.closeSidebar();
                     }
                     vm.windowWidth = $window.innerWidth;
