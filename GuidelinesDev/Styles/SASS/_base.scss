@@ -91,8 +91,7 @@ header {
     left: 50px;
     line-height: 50px;
     margin: 0;
-    padding: 0 10px;
-    position: absolute;
+    position: fixed;
     right: 0;
 
     text: {
@@ -112,6 +111,15 @@ header {
 
     .theme-dark & {
         background: $darkThemeForegroundSecondary;
+    }
+
+    p {
+        display: inline-block;
+        margin: 0 0 0 10px;
+    }
+
+    ul {
+        margin: 0;
     }
 }
 

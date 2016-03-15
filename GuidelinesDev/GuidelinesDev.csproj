@@ -32,6 +32,7 @@
     <Content Include="Scripts\Lib\angular-ui-router.min.js" />
     <Content Include="Scripts\Lib\angular.min.js" />
     <Content Include="Scripts\Modules\Guidelines\Home\Home.html" />
+    <Content Include="Scripts\Modules\Guidelines\Layout\Sidebar.html" />
     <Content Include="Scripts\Modules\Guidelines\Privacy\Privacy.html" />
     <Content Include="Scripts\Modules\Guidelines\Settings\Settings.html" />
     <Content Include="Scripts\Modules\Guidelines\ControlsAndPatterns\controlsandpatterns.html" />
@@ -41,6 +42,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\Modules\Guidelines\guidelines.config.ts" />
     <TypeScriptCompile Include="Scripts\Modules\Guidelines\guidelines.module.ts" />
+    <TypeScriptCompile Include="Scripts\Modules\Guidelines\Layout\sidebar.directive.ts" />
     <TypeScriptCompile Include="Scripts\Modules\Guidelines\Layout\layout.controller.ts" />
     <TypeScriptCompile Include="Scripts\Modules\Guidelines\Layout\layout.service.ts" />
     <TypeScriptCompile Include="Scripts\Modules\Guidelines\_all.d.ts" />

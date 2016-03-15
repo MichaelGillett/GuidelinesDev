@@ -25,7 +25,7 @@
         function initialise() {
             $window.addEventListener('resize', function () {
                 $scope.$apply(function () {
-                    if (window.innerWidth <= 640 && vm.layout.isSidebarOpen) {
+                    if (window.innerWidth <= 800 && vm.layout.isSidebarOpen) {
                         vm.layout.closeSidebar();
                     }
                     vm.windowWidth = $window.innerWidth;

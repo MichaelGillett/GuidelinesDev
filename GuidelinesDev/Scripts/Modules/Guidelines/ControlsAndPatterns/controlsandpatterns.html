@@ -1,90 +1,96 @@
-﻿<div class="control">
-    <h2>Links</h2>
-    <p class="info">Changes based on accent colour. Supports :focus, :hover and :active states.</p>
-    <a href="">An example link</a>
+﻿<div class="actionBar">
+    <ul>
+        <li><a href="#" ui-sref="home"><span class="icon action">&#xE80f</span></a></li>
+    </ul>
 </div>
-
-<div class="control">
-    <h2>Buttons</h2>
-    <div class="contentGroup">
-        <h3>Default button</h3>
-        <p class="info">Changes based on theme colour. Supports :focus, :hover and :active states. Can be disabled.</p>
-        <button>Button</button>
-        <button disabled>Button</button>
+<div ng-click="layoutCtrl.layout.closeSidebar()">
+    <div class="control">
+        <h2>Links</h2>
+        <p class="info">Changes based on accent colour. Supports :focus, :hover and :active states.</p>
+        <a href="">An example link</a>
     </div>
-    <div class="contentGroup">
-        <h3>Accent button</h3>
-        <p class="info">Changes based on accent colour. Supports :focus, :hover and :active states. Can be disabled.</p>
-        <button class="accentButton">Button</button>
-        <button class="accentButton" disabled>Button</button>
-    </div>
-</div>
 
-<div class="control">
-    <h2>Check boxes</h2>
-    <div class="contentGroup">
-        <p class="info">Changes based on theme colour. Supports :focus, :hover and :active states. Can be disabled.</p>
-        <form action="">
-            <div>
-                <input type="checkbox" value="1" id="checkbox1" class="checkbox">
-                <label for="checkbox1" class="checkboxLabel">Option 1</label>
-            </div>
-            <div>
-                <input type="checkbox" value="2" id="checkbox2" class="checkbox">
-                <label for="checkbox2" class="checkboxLabel">Option 2</label>
-            </div>
-            <div>
-                <input type="checkbox" value="3" id="checkbox3" class="checkbox">
-                <label for="checkbox3" class="checkboxLabel">Option 3</label>
-            </div>
-        </form>
-    </div>
-</div>
-
-<div class="control">
-    <h2>Radio boxes</h2>
-    <p class="info">Checked state changes based on accent colour. Supports :hover, :focus and :checked states.</p>
-    <div>
-        <div class="radioContainer">
-            <input type="radio" id="Option1" name="radio1" value="Option1" class="radioInput" /><label for="Option1">Option 1</label>
+    <div class="control">
+        <h2>Buttons</h2>
+        <div class="contentGroup">
+            <h3>Default button</h3>
+            <p class="info">Changes based on theme colour. Supports :focus, :hover and :active states. Can be disabled.</p>
+            <button>Button</button>
+            <button disabled>Button</button>
         </div>
-        <div class="radioContainer">
-            <input type="radio" id="Option2" name="radio1" value="Option2" class="radioInput" /><label for="Option2">Option 2</label>
-        </div>
-        <div class="radioContainer">
-            <input type="radio" id="Option3" name="radio1" value="Option3" class="radioInput" /><label for="Option3">Option 3</label>
+        <div class="contentGroup">
+            <h3>Accent button</h3>
+            <p class="info">Changes based on accent colour. Supports :focus, :hover and :active states. Can be disabled.</p>
+            <button class="accentButton">Button</button>
+            <button class="accentButton" disabled>Button</button>
         </div>
     </div>
+
+    <div class="control">
+        <h2>Check boxes</h2>
+        <div class="contentGroup">
+            <p class="info">Changes based on theme colour. Supports :focus, :hover and :active states. Can be disabled.</p>
+            <form action="">
+                <div>
+                    <input type="checkbox" value="1" id="checkbox1" class="checkbox">
+                    <label for="checkbox1" class="checkboxLabel">Option 1</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="2" id="checkbox2" class="checkbox">
+                    <label for="checkbox2" class="checkboxLabel">Option 2</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="3" id="checkbox3" class="checkbox">
+                    <label for="checkbox3" class="checkboxLabel">Option 3</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="control">
+        <h2>Radio boxes</h2>
+        <p class="info">Checked state changes based on accent colour. Supports :hover, :focus and :checked states.</p>
+        <div>
+            <div class="radioContainer">
+                <input type="radio" id="Option1" name="radio1" value="Option1" class="radioInput" /><label for="Option1">Option 1</label>
+            </div>
+            <div class="radioContainer">
+                <input type="radio" id="Option2" name="radio1" value="Option2" class="radioInput" /><label for="Option2">Option 2</label>
+            </div>
+            <div class="radioContainer">
+                <input type="radio" id="Option3" name="radio1" value="Option3" class="radioInput" /><label for="Option3">Option 3</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="control">
+        <h2>Text Inputs</h2>
+        <p class="info">Enabled state changes based on accent colour. Supports :hover state.</p>
+        <div>
+            <input type="text" />
+        </div>
+        <div style="margin-top: 10px;">
+            <select>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="control">
+        <h2>Toggle Switches</h2>
+        <p class="info">Enabled state changes based on accent colour. Supports :hover state.</p>
+        <div>
+            <p>Toggle switch 1</p>
+            <input type="checkbox" id="switch1" name="switch1" class="toggleSwitch" ng-model="switch1" />
+            <label for="switch1"><span ng-show="switch1">On</span><span ng-hide="switch1">Off</span></label>
+        </div>
+
+        <div>
+            <p>Toggle switch 2</p>
+            <input type="checkbox" id="switch2" name="switch2" class="toggleSwitch" ng-model="switch2" />
+            <label for="switch2"><span ng-show="switch2">On</span><span ng-hide="switch2">Off</span></label>
+        </div>
+    </div>
 </div>
-
-<div class="control">
-    <h2>Text Inputs</h2>
-    <p class="info">Enabled state changes based on accent colour. Supports :hover state.</p>
-    <div>
-        <input type="text" />
-    </div>
-    <div style="margin-top: 10px;">
-        <select>
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
-        </select>
-    </div>
-</div>
-
-<div class="control">
-    <h2>Toggle Switches</h2>
-    <p class="info">Enabled state changes based on accent colour. Supports :hover state.</p>
-    <div>
-        <p>Toggle switch 1</p>
-        <input type="checkbox" id="switch1" name="switch1" class="toggleSwitch" ng-model="switch1"/>
-        <label for="switch1"><span ng-show="switch1">On</span><span ng-hide="switch1">Off</span></label>
-    </div>
-
-    <div>
-        <p>Toggle switch 2</p>
-        <input type="checkbox" id="switch2" name="switch2" class="toggleSwitch" ng-model="switch2" />
-        <label for="switch2"><span ng-show="switch2">On</span><span ng-hide="switch2">Off</span></label>
-    </div>
-</div>
-

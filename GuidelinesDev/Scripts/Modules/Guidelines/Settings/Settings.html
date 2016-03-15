@@ -1,23 +1,29 @@
-﻿<h2>Guidelines Settings</h2>
-
-<div class="control">
-    <h3>Toggle theme</h3>
-    <p>Enable dark theme</p>
-    <input type="checkbox" id="switch1" name="switch1" class="toggleSwitch" ng-model="layoutCtrl.layout.isThemeDark" />
-    <label for="switch1"><span ng-show="layoutCtrl.layout.isThemeDark">On</span><span ng-hide="layoutCtrl.layout.isThemeDark">Off</span></label>
+﻿<div class="actionBar">
+    <ul>
+        <li><a href="#" ui-sref="home"><span class="icon action">&#xE80f</span></a></li>
+    </ul>
 </div>
+<div ng-click="layoutCtrl.layout.closeSidebar()">
+    <h2>Guidelines Settings</h2>
 
-<div class="control">
-    <h3>Select accent color</h3>
-    <p>If the app is installed it will default to your selected accent colour, sadly it can't do it for websites (yet)</p>
-    <div class="colorSquaresContainer">
-        <div class="colorSquare accentColor-{{$index + 1}}" ng-repeat="color in layoutCtrl.layout.colors" ng-click="layoutCtrl.layout.selectAccentColor($index)" ng-class="{'selected' : layoutCtrl.layout.accentColor == $index}"></div>
+    <div class="control">
+        <h3>Toggle theme</h3>
+        <p>Enable dark theme</p>
+        <input type="checkbox" id="switch1" name="switch1" class="toggleSwitch" ng-model="layoutCtrl.layout.isThemeDark" />
+        <label for="switch1"><span ng-show="layoutCtrl.layout.isThemeDark">On</span><span ng-hide="layoutCtrl.layout.isThemeDark">Off</span></label>
+    </div>
+
+    <div class="control">
+        <h3>Select accent color</h3>
+        <p>If the app is installed it will default to your selected accent colour, sadly it can't do it for websites (yet)</p>
+        <div class="colorSquaresContainer">
+            <div class="colorSquare accentColor-{{$index + 1}}" ng-repeat="color in layoutCtrl.layout.colors" ng-click="layoutCtrl.layout.selectAccentColor($index)" ng-class="{'selected' : layoutCtrl.layout.accentColor == $index}"></div>
+        </div>
+    </div>
+
+    <div class="control">
+        <h3>Links</h3>
+        <div><a href="http://twitter.com/michaelgillett">@MichaelGillett</a></div>
+        <div><a ui-sref="privacy">Privacy Policy</a></div>
     </div>
 </div>
-
-<div class="control">
-    <h3>Links</h3>
-    <div><a href="http://twitter.com/michaelgillett">@MichaelGillett</a></div>
-    <div><a ui-sref="privacy">Privacy Policy</a></div>
-</div>
-
