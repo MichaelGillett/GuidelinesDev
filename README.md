@@ -8,6 +8,10 @@ Twitter is the best place to contact me, [@MichaelGillett](http://twitter.com/mi
 #Change log
 
 ##2016
+###March 15th - Add actions bar
+- Add actions bar to the states
+- Tweak break points to have website act more like a Windows 10 Mobile app
+
 ###March 11th - Error handling when internet not available
 - Add error splash screen when no internet on first load
 - .html files are compiled into .js files and cached once the app/site is visited
